@@ -1,0 +1,889 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+    
+      <url>
+        <loc>
+          https://ztools.site/vi/
+        </loc>
+        <changefreq>
+          weekly
+        </changefreq>
+        <priority>
+          1.0
+        </priority>
+        
+          <xhtml:link rel="alternate" hreflang="vi-VN" href="https://ztools.site/vi/" />
+          
+          <xhtml:link rel="alternate" hreflang="en-US" href="https://ztools.site/en/" />
+          
+      </url>
+      
+      <url>
+        <loc>
+          https://ztools.site/vi/about/
+        </loc>
+        <changefreq>
+          weekly
+        </changefreq>
+        <priority>
+          0.6
+        </priority>
+        
+          <xhtml:link rel="alternate" hreflang="vi-VN" href="https://ztools.site/vi/about/" />
+          
+          <xhtml:link rel="alternate" hreflang="en-US" href="https://ztools.site/en/about/" />
+          
+      </url>
+      
+      <url>
+        <loc>
+          https://ztools.site/vi/categories/
+        </loc>
+        <changefreq>
+          weekly
+        </changefreq>
+        <priority>
+          0.6
+        </priority>
+        
+          <xhtml:link rel="alternate" hreflang="vi-VN" href="https://ztools.site/vi/categories/" />
+          
+          <xhtml:link rel="alternate" hreflang="en-US" href="https://ztools.site/en/categories/" />
+          
+      </url>
+      
+      <url>
+        <loc>
+          https://ztools.site/vi/changelog/
+        </loc>
+        <changefreq>
+          weekly
+        </changefreq>
+        <priority>
+          0.6
+        </priority>
+        
+          <xhtml:link rel="alternate" hreflang="vi-VN" href="https://ztools.site/vi/changelog/" />
+          
+          <xhtml:link rel="alternate" hreflang="en-US" href="https://ztools.site/en/changelog/" />
+          
+      </url>
+      
+      <url>
+        <loc>
+          https://ztools.site/vi/privacy/
+        </loc>
+        <changefreq>
+          weekly
+        </changefreq>
+        <priority>
+          0.6
+        </priority>
+        
+          <xhtml:link rel="alternate" hreflang="vi-VN" href="https://ztools.site/vi/privacy/" />
+          
+          <xhtml:link rel="alternate" hreflang="en-US" href="https://ztools.site/en/privacy/" />
+          
+      </url>
+      
+      <url>
+        <loc>
+          https://ztools.site/vi/terms/
+        </loc>
+        <changefreq>
+          weekly
+        </changefreq>
+        <priority>
+          0.6
+        </priority>
+        
+          <xhtml:link rel="alternate" hreflang="vi-VN" href="https://ztools.site/vi/terms/" />
+          
+          <xhtml:link rel="alternate" hreflang="en-US" href="https://ztools.site/en/terms/" />
+          
+      </url>
+      
+      <url>
+        <loc>
+          https://ztools.site/en/
+        </loc>
+        <changefreq>
+          weekly
+        </changefreq>
+        <priority>
+          1.0
+        </priority>
+        
+          <xhtml:link rel="alternate" hreflang="vi-VN" href="https://ztools.site/vi/" />
+          
+          <xhtml:link rel="alternate" hreflang="en-US" href="https://ztools.site/en/" />
+          
+      </url>
+      
+      <url>
+        <loc>
+          https://ztools.site/en/about/
+        </loc>
+        <changefreq>
+          weekly
+        </changefreq>
+        <priority>
+          0.6
+        </priority>
+        
+          <xhtml:link rel="alternate" hreflang="vi-VN" href="https://ztools.site/vi/about/" />
+          
+          <xhtml:link rel="alternate" hreflang="en-US" href="https://ztools.site/en/about/" />
+          
+      </url>
+      
+      <url>
+        <loc>
+          https://ztools.site/en/categories/
+        </loc>
+        <changefreq>
+          weekly
+        </changefreq>
+        <priority>
+          0.6
+        </priority>
+        
+          <xhtml:link rel="alternate" hreflang="vi-VN" href="https://ztools.site/vi/categories/" />
+          
+          <xhtml:link rel="alternate" hreflang="en-US" href="https://ztools.site/en/categories/" />
+          
+      </url>
+      
+      <url>
+        <loc>
+          https://ztools.site/en/changelog/
+        </loc>
+        <changefreq>
+          weekly
+        </changefreq>
+        <priority>
+          0.6
+        </priority>
+        
+          <xhtml:link rel="alternate" hreflang="vi-VN" href="https://ztools.site/vi/changelog/" />
+          
+          <xhtml:link rel="alternate" hreflang="en-US" href="https://ztools.site/en/changelog/" />
+          
+      </url>
+      
+      <url>
+        <loc>
+          https://ztools.site/en/privacy/
+        </loc>
+        <changefreq>
+          weekly
+        </changefreq>
+        <priority>
+          0.6
+        </priority>
+        
+          <xhtml:link rel="alternate" hreflang="vi-VN" href="https://ztools.site/vi/privacy/" />
+          
+          <xhtml:link rel="alternate" hreflang="en-US" href="https://ztools.site/en/privacy/" />
+          
+      </url>
+      
+      <url>
+        <loc>
+          https://ztools.site/en/terms/
+        </loc>
+        <changefreq>
+          weekly
+        </changefreq>
+        <priority>
+          0.6
+        </priority>
+        
+          <xhtml:link rel="alternate" hreflang="vi-VN" href="https://ztools.site/vi/terms/" />
+          
+          <xhtml:link rel="alternate" hreflang="en-US" href="https://ztools.site/en/terms/" />
+          
+      </url>
+      
+      <url>
+        <loc>
+          https://ztools.site/vi/blog/
+        </loc>
+        <changefreq>
+          weekly
+        </changefreq>
+        <priority>
+          0.7
+        </priority>
+        
+          <xhtml:link rel="alternate" hreflang="vi-VN" href="https://ztools.site/vi/blog/" />
+          
+          <xhtml:link rel="alternate" hreflang="en-US" href="https://ztools.site/en/blog/" />
+          
+      </url>
+      
+      <url>
+        <loc>
+          https://ztools.site/en/blog/
+        </loc>
+        <changefreq>
+          weekly
+        </changefreq>
+        <priority>
+          0.7
+        </priority>
+        
+          <xhtml:link rel="alternate" hreflang="vi-VN" href="https://ztools.site/vi/blog/" />
+          
+          <xhtml:link rel="alternate" hreflang="en-US" href="https://ztools.site/en/blog/" />
+          
+      </url>
+      
+      <url>
+        <loc>
+          https://ztools.site/vi/blog/
+        </loc>
+        <changefreq>
+          monthly
+        </changefreq>
+        <priority>
+          0.8
+        </priority>
+        
+          <xhtml:link rel="alternate" hreflang="vi-VN" href="https://ztools.site/vi/blog/" />
+          
+          <xhtml:link rel="alternate" hreflang="en-US" href="https://ztools.site/en/blog/" />
+          
+      </url>
+      
+      <url>
+        <loc>
+          https://ztools.site/en/blog/
+        </loc>
+        <changefreq>
+          monthly
+        </changefreq>
+        <priority>
+          0.8
+        </priority>
+        
+          <xhtml:link rel="alternate" hreflang="vi-VN" href="https://ztools.site/vi/blog/" />
+          
+          <xhtml:link rel="alternate" hreflang="en-US" href="https://ztools.site/en/blog/" />
+          
+      </url>
+      
+      <url>
+        <loc>
+          https://ztools.site/vi/bmi/
+        </loc>
+        <changefreq>
+          monthly
+        </changefreq>
+        <priority>
+          0.8
+        </priority>
+        
+          <xhtml:link rel="alternate" hreflang="vi-VN" href="https://ztools.site/vi/bmi/" />
+          
+          <xhtml:link rel="alternate" hreflang="en-US" href="https://ztools.site/en/bmi/" />
+          
+      </url>
+      
+      <url>
+        <loc>
+          https://ztools.site/en/bmi/
+        </loc>
+        <changefreq>
+          monthly
+        </changefreq>
+        <priority>
+          0.8
+        </priority>
+        
+          <xhtml:link rel="alternate" hreflang="vi-VN" href="https://ztools.site/vi/bmi/" />
+          
+          <xhtml:link rel="alternate" hreflang="en-US" href="https://ztools.site/en/bmi/" />
+          
+      </url>
+      
+      <url>
+        <loc>
+          https://ztools.site/vi/bookmark-creator/
+        </loc>
+        <changefreq>
+          monthly
+        </changefreq>
+        <priority>
+          0.8
+        </priority>
+        
+          <xhtml:link rel="alternate" hreflang="vi-VN" href="https://ztools.site/vi/bookmark-creator/" />
+          
+          <xhtml:link rel="alternate" hreflang="en-US" href="https://ztools.site/en/bookmark-creator/" />
+          
+      </url>
+      
+      <url>
+        <loc>
+          https://ztools.site/en/bookmark-creator/
+        </loc>
+        <changefreq>
+          monthly
+        </changefreq>
+        <priority>
+          0.8
+        </priority>
+        
+          <xhtml:link rel="alternate" hreflang="vi-VN" href="https://ztools.site/vi/bookmark-creator/" />
+          
+          <xhtml:link rel="alternate" hreflang="en-US" href="https://ztools.site/en/bookmark-creator/" />
+          
+      </url>
+      
+      <url>
+        <loc>
+          https://ztools.site/vi/cron-parser/
+        </loc>
+        <changefreq>
+          monthly
+        </changefreq>
+        <priority>
+          0.8
+        </priority>
+        
+          <xhtml:link rel="alternate" hreflang="vi-VN" href="https://ztools.site/vi/cron-parser/" />
+          
+          <xhtml:link rel="alternate" hreflang="en-US" href="https://ztools.site/en/cron-parser/" />
+          
+      </url>
+      
+      <url>
+        <loc>
+          https://ztools.site/en/cron-parser/
+        </loc>
+        <changefreq>
+          monthly
+        </changefreq>
+        <priority>
+          0.8
+        </priority>
+        
+          <xhtml:link rel="alternate" hreflang="vi-VN" href="https://ztools.site/vi/cron-parser/" />
+          
+          <xhtml:link rel="alternate" hreflang="en-US" href="https://ztools.site/en/cron-parser/" />
+          
+      </url>
+      
+      <url>
+        <loc>
+          https://ztools.site/vi/dev-toolkit/
+        </loc>
+        <changefreq>
+          monthly
+        </changefreq>
+        <priority>
+          0.8
+        </priority>
+        
+          <xhtml:link rel="alternate" hreflang="vi-VN" href="https://ztools.site/vi/dev-toolkit/" />
+          
+          <xhtml:link rel="alternate" hreflang="en-US" href="https://ztools.site/en/dev-toolkit/" />
+          
+      </url>
+      
+      <url>
+        <loc>
+          https://ztools.site/en/dev-toolkit/
+        </loc>
+        <changefreq>
+          monthly
+        </changefreq>
+        <priority>
+          0.8
+        </priority>
+        
+          <xhtml:link rel="alternate" hreflang="vi-VN" href="https://ztools.site/vi/dev-toolkit/" />
+          
+          <xhtml:link rel="alternate" hreflang="en-US" href="https://ztools.site/en/dev-toolkit/" />
+          
+      </url>
+      
+      <url>
+        <loc>
+          https://ztools.site/vi/glassmorphism-generator/
+        </loc>
+        <changefreq>
+          monthly
+        </changefreq>
+        <priority>
+          0.8
+        </priority>
+        
+          <xhtml:link rel="alternate" hreflang="vi-VN" href="https://ztools.site/vi/glassmorphism-generator/" />
+          
+          <xhtml:link rel="alternate" hreflang="en-US" href="https://ztools.site/en/glassmorphism-generator/" />
+          
+      </url>
+      
+      <url>
+        <loc>
+          https://ztools.site/en/glassmorphism-generator/
+        </loc>
+        <changefreq>
+          monthly
+        </changefreq>
+        <priority>
+          0.8
+        </priority>
+        
+          <xhtml:link rel="alternate" hreflang="vi-VN" href="https://ztools.site/vi/glassmorphism-generator/" />
+          
+          <xhtml:link rel="alternate" hreflang="en-US" href="https://ztools.site/en/glassmorphism-generator/" />
+          
+      </url>
+      
+      <url>
+        <loc>
+          https://ztools.site/vi/json-toolkit/
+        </loc>
+        <changefreq>
+          monthly
+        </changefreq>
+        <priority>
+          0.8
+        </priority>
+        
+          <xhtml:link rel="alternate" hreflang="vi-VN" href="https://ztools.site/vi/json-toolkit/" />
+          
+          <xhtml:link rel="alternate" hreflang="en-US" href="https://ztools.site/en/json-toolkit/" />
+          
+      </url>
+      
+      <url>
+        <loc>
+          https://ztools.site/en/json-toolkit/
+        </loc>
+        <changefreq>
+          monthly
+        </changefreq>
+        <priority>
+          0.8
+        </priority>
+        
+          <xhtml:link rel="alternate" hreflang="vi-VN" href="https://ztools.site/vi/json-toolkit/" />
+          
+          <xhtml:link rel="alternate" hreflang="en-US" href="https://ztools.site/en/json-toolkit/" />
+          
+      </url>
+      
+      <url>
+        <loc>
+          https://ztools.site/vi/jwt-toolkit/
+        </loc>
+        <changefreq>
+          monthly
+        </changefreq>
+        <priority>
+          0.8
+        </priority>
+        
+          <xhtml:link rel="alternate" hreflang="vi-VN" href="https://ztools.site/vi/jwt-toolkit/" />
+          
+          <xhtml:link rel="alternate" hreflang="en-US" href="https://ztools.site/en/jwt-toolkit/" />
+          
+      </url>
+      
+      <url>
+        <loc>
+          https://ztools.site/en/jwt-toolkit/
+        </loc>
+        <changefreq>
+          monthly
+        </changefreq>
+        <priority>
+          0.8
+        </priority>
+        
+          <xhtml:link rel="alternate" hreflang="vi-VN" href="https://ztools.site/vi/jwt-toolkit/" />
+          
+          <xhtml:link rel="alternate" hreflang="en-US" href="https://ztools.site/en/jwt-toolkit/" />
+          
+      </url>
+      
+      <url>
+        <loc>
+          https://ztools.site/vi/loan-calculator/
+        </loc>
+        <changefreq>
+          monthly
+        </changefreq>
+        <priority>
+          0.8
+        </priority>
+        
+          <xhtml:link rel="alternate" hreflang="vi-VN" href="https://ztools.site/vi/loan-calculator/" />
+          
+          <xhtml:link rel="alternate" hreflang="en-US" href="https://ztools.site/en/loan-calculator/" />
+          
+      </url>
+      
+      <url>
+        <loc>
+          https://ztools.site/en/loan-calculator/
+        </loc>
+        <changefreq>
+          monthly
+        </changefreq>
+        <priority>
+          0.8
+        </priority>
+        
+          <xhtml:link rel="alternate" hreflang="vi-VN" href="https://ztools.site/vi/loan-calculator/" />
+          
+          <xhtml:link rel="alternate" hreflang="en-US" href="https://ztools.site/en/loan-calculator/" />
+          
+      </url>
+      
+      <url>
+        <loc>
+          https://ztools.site/vi/password-generator/
+        </loc>
+        <changefreq>
+          monthly
+        </changefreq>
+        <priority>
+          0.8
+        </priority>
+        
+          <xhtml:link rel="alternate" hreflang="vi-VN" href="https://ztools.site/vi/password-generator/" />
+          
+          <xhtml:link rel="alternate" hreflang="en-US" href="https://ztools.site/en/password-generator/" />
+          
+      </url>
+      
+      <url>
+        <loc>
+          https://ztools.site/en/password-generator/
+        </loc>
+        <changefreq>
+          monthly
+        </changefreq>
+        <priority>
+          0.8
+        </priority>
+        
+          <xhtml:link rel="alternate" hreflang="vi-VN" href="https://ztools.site/vi/password-generator/" />
+          
+          <xhtml:link rel="alternate" hreflang="en-US" href="https://ztools.site/en/password-generator/" />
+          
+      </url>
+      
+      <url>
+        <loc>
+          https://ztools.site/vi/percentage-calculator/
+        </loc>
+        <changefreq>
+          monthly
+        </changefreq>
+        <priority>
+          0.8
+        </priority>
+        
+          <xhtml:link rel="alternate" hreflang="vi-VN" href="https://ztools.site/vi/percentage-calculator/" />
+          
+          <xhtml:link rel="alternate" hreflang="en-US" href="https://ztools.site/en/percentage-calculator/" />
+          
+      </url>
+      
+      <url>
+        <loc>
+          https://ztools.site/en/percentage-calculator/
+        </loc>
+        <changefreq>
+          monthly
+        </changefreq>
+        <priority>
+          0.8
+        </priority>
+        
+          <xhtml:link rel="alternate" hreflang="vi-VN" href="https://ztools.site/vi/percentage-calculator/" />
+          
+          <xhtml:link rel="alternate" hreflang="en-US" href="https://ztools.site/en/percentage-calculator/" />
+          
+      </url>
+      
+      <url>
+        <loc>
+          https://ztools.site/vi/salary-tax-master/
+        </loc>
+        <changefreq>
+          monthly
+        </changefreq>
+        <priority>
+          0.8
+        </priority>
+        
+          <xhtml:link rel="alternate" hreflang="vi-VN" href="https://ztools.site/vi/salary-tax-master/" />
+          
+          <xhtml:link rel="alternate" hreflang="en-US" href="https://ztools.site/en/salary-tax-master/" />
+          
+      </url>
+      
+      <url>
+        <loc>
+          https://ztools.site/en/salary-tax-master/
+        </loc>
+        <changefreq>
+          monthly
+        </changefreq>
+        <priority>
+          0.8
+        </priority>
+        
+          <xhtml:link rel="alternate" hreflang="vi-VN" href="https://ztools.site/vi/salary-tax-master/" />
+          
+          <xhtml:link rel="alternate" hreflang="en-US" href="https://ztools.site/en/salary-tax-master/" />
+          
+      </url>
+      
+      <url>
+        <loc>
+          https://ztools.site/vi/tax/
+        </loc>
+        <changefreq>
+          monthly
+        </changefreq>
+        <priority>
+          0.8
+        </priority>
+        
+          <xhtml:link rel="alternate" hreflang="vi-VN" href="https://ztools.site/vi/tax/" />
+          
+          <xhtml:link rel="alternate" hreflang="en-US" href="https://ztools.site/en/tax/" />
+          
+      </url>
+      
+      <url>
+        <loc>
+          https://ztools.site/en/tax/
+        </loc>
+        <changefreq>
+          monthly
+        </changefreq>
+        <priority>
+          0.8
+        </priority>
+        
+          <xhtml:link rel="alternate" hreflang="vi-VN" href="https://ztools.site/vi/tax/" />
+          
+          <xhtml:link rel="alternate" hreflang="en-US" href="https://ztools.site/en/tax/" />
+          
+      </url>
+      
+      <url>
+        <loc>
+          https://ztools.site/vi/text-diff/
+        </loc>
+        <changefreq>
+          monthly
+        </changefreq>
+        <priority>
+          0.8
+        </priority>
+        
+          <xhtml:link rel="alternate" hreflang="vi-VN" href="https://ztools.site/vi/text-diff/" />
+          
+          <xhtml:link rel="alternate" hreflang="en-US" href="https://ztools.site/en/text-diff/" />
+          
+      </url>
+      
+      <url>
+        <loc>
+          https://ztools.site/en/text-diff/
+        </loc>
+        <changefreq>
+          monthly
+        </changefreq>
+        <priority>
+          0.8
+        </priority>
+        
+          <xhtml:link rel="alternate" hreflang="vi-VN" href="https://ztools.site/vi/text-diff/" />
+          
+          <xhtml:link rel="alternate" hreflang="en-US" href="https://ztools.site/en/text-diff/" />
+          
+      </url>
+      
+      <url>
+        <loc>
+          https://ztools.site/vi/text-formatter/
+        </loc>
+        <changefreq>
+          monthly
+        </changefreq>
+        <priority>
+          0.8
+        </priority>
+        
+          <xhtml:link rel="alternate" hreflang="vi-VN" href="https://ztools.site/vi/text-formatter/" />
+          
+          <xhtml:link rel="alternate" hreflang="en-US" href="https://ztools.site/en/text-formatter/" />
+          
+      </url>
+      
+      <url>
+        <loc>
+          https://ztools.site/en/text-formatter/
+        </loc>
+        <changefreq>
+          monthly
+        </changefreq>
+        <priority>
+          0.8
+        </priority>
+        
+          <xhtml:link rel="alternate" hreflang="vi-VN" href="https://ztools.site/vi/text-formatter/" />
+          
+          <xhtml:link rel="alternate" hreflang="en-US" href="https://ztools.site/en/text-formatter/" />
+          
+      </url>
+      
+      <url>
+        <loc>
+          https://ztools.site/vi/unit-converter/
+        </loc>
+        <changefreq>
+          monthly
+        </changefreq>
+        <priority>
+          0.8
+        </priority>
+        
+          <xhtml:link rel="alternate" hreflang="vi-VN" href="https://ztools.site/vi/unit-converter/" />
+          
+          <xhtml:link rel="alternate" hreflang="en-US" href="https://ztools.site/en/unit-converter/" />
+          
+      </url>
+      
+      <url>
+        <loc>
+          https://ztools.site/en/unit-converter/
+        </loc>
+        <changefreq>
+          monthly
+        </changefreq>
+        <priority>
+          0.8
+        </priority>
+        
+          <xhtml:link rel="alternate" hreflang="vi-VN" href="https://ztools.site/vi/unit-converter/" />
+          
+          <xhtml:link rel="alternate" hreflang="en-US" href="https://ztools.site/en/unit-converter/" />
+          
+      </url>
+      
+      <url>
+        <loc>
+          https://ztools.site/vi/uuid-generator/
+        </loc>
+        <changefreq>
+          monthly
+        </changefreq>
+        <priority>
+          0.8
+        </priority>
+        
+          <xhtml:link rel="alternate" hreflang="vi-VN" href="https://ztools.site/vi/uuid-generator/" />
+          
+          <xhtml:link rel="alternate" hreflang="en-US" href="https://ztools.site/en/uuid-generator/" />
+          
+      </url>
+      
+      <url>
+        <loc>
+          https://ztools.site/en/uuid-generator/
+        </loc>
+        <changefreq>
+          monthly
+        </changefreq>
+        <priority>
+          0.8
+        </priority>
+        
+          <xhtml:link rel="alternate" hreflang="vi-VN" href="https://ztools.site/vi/uuid-generator/" />
+          
+          <xhtml:link rel="alternate" hreflang="en-US" href="https://ztools.site/en/uuid-generator/" />
+          
+      </url>
+      
+      <url>
+        <loc>
+          https://ztools.site/vi/web-playground/
+        </loc>
+        <changefreq>
+          monthly
+        </changefreq>
+        <priority>
+          0.8
+        </priority>
+        
+          <xhtml:link rel="alternate" hreflang="vi-VN" href="https://ztools.site/vi/web-playground/" />
+          
+          <xhtml:link rel="alternate" hreflang="en-US" href="https://ztools.site/en/web-playground/" />
+          
+      </url>
+      
+      <url>
+        <loc>
+          https://ztools.site/en/web-playground/
+        </loc>
+        <changefreq>
+          monthly
+        </changefreq>
+        <priority>
+          0.8
+        </priority>
+        
+          <xhtml:link rel="alternate" hreflang="vi-VN" href="https://ztools.site/vi/web-playground/" />
+          
+          <xhtml:link rel="alternate" hreflang="en-US" href="https://ztools.site/en/web-playground/" />
+          
+      </url>
+      
+      <url>
+        <loc>
+          https://ztools.site/vi/word-counter/
+        </loc>
+        <changefreq>
+          monthly
+        </changefreq>
+        <priority>
+          0.8
+        </priority>
+        
+          <xhtml:link rel="alternate" hreflang="vi-VN" href="https://ztools.site/vi/word-counter/" />
+          
+          <xhtml:link rel="alternate" hreflang="en-US" href="https://ztools.site/en/word-counter/" />
+          
+      </url>
+      
+      <url>
+        <loc>
+          https://ztools.site/en/word-counter/
+        </loc>
+        <changefreq>
+          monthly
+        </changefreq>
+        <priority>
+          0.8
+        </priority>
+        
+          <xhtml:link rel="alternate" hreflang="vi-VN" href="https://ztools.site/vi/word-counter/" />
+          
+          <xhtml:link rel="alternate" hreflang="en-US" href="https://ztools.site/en/word-counter/" />
+          
+      </url>
+      
+</urlset>

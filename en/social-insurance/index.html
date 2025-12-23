@@ -1,0 +1,1216 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>
+  ZTools - Free Online Utility Tools
+</title>
+
+  <meta name="description" content="Social Insurance &amp; Pension Calculator.">
+  
+    <meta name="keywords" content="free tools, online utility, bộ công cụ online, tính thuế tncn, format json, ztools, tiện ích miễn phí">
+    
+
+      <!-- Canonical URL -->
+      <link rel="canonical" href="https://ztools.site/en/social-insurance/" />
+
+      <!-- Hreflang Tags for Multi-language -->
+      
+        <link rel="alternate" hreflang="vi" href="https://ztools.site/vi/social-insurance/" />
+        <link rel="alternate" hreflang="en" href="https://ztools.site/en/social-insurance/" />
+        <link rel="alternate" hreflang="x-default" href="https://ztools.site/vi/social-insurance/" />
+
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content="https://ztools.site/en/social-insurance/" />
+        <meta property="og:title" content="ZTools - Free Online Utility Tools" />
+        <meta property="og:description" content="Social Insurance &amp; Pension Calculator." />
+        <meta property="og:image" content="https://ztools.site/assets/images/og-default.png" />
+        <meta property="og:site_name" content="ZTools" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:locale:alternate" content="vi_VN" />
+
+        <!-- Twitter Card -->
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:url" content="https://ztools.site/en/social-insurance/" />
+        <meta name="twitter:title" content="ZTools - Free Online Utility Tools" />
+        <meta name="twitter:description" content="Social Insurance &amp; Pension Calculator." />
+        <meta name="twitter:image" content="https://ztools.site/assets/images/og-default.png" />
+
+        <!-- Author & Copyright -->
+        <meta name="author" content="Anph" />
+        <meta name="robots" content="index, follow" />
+
+        <!-- Stylesheets -->
+        <link rel="stylesheet" href="../../assets/css/global.css?h=0461571e">
+        
+          <link rel="stylesheet" href="../../assets/features/social-insurance/style.css?h=88e63a62">
+          
+            <link rel="icon" type="image/svg+xml" href="../../assets/images/logo.svg">
+            <link rel="manifest" href="../../manifest.json">
+
+            <!-- Lucide Icons Library -->
+            <script src="https://unpkg.com/lucide@latest"></script>
+
+            <script src="../../assets/js/user-mode.js?h=c17362f9"></script>
+
+            <!-- Dark Mode Script (Blocking) -->
+            <script>
+              const savedTheme = localStorage.getItem('theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+              document.documentElement.setAttribute('data-theme', savedTheme);
+            </script>
+
+            <!-- Vercel Analytics (Commented to fix 404 in non-Vercel environments)
+  <script>
+    window.va = window.va || function () { (window.va.q = window.va.q || []).push(arguments); };
+  </script>
+  <script defer src="/_vercel/analytics/script.js"></script>
+  -->
+
+            <!-- Schema.org Structured Data -->
+            
+
+  <script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "ZTools",
+    "url": "https://ztools.site",
+    "description": "Free online utility tools: Tax Calculator, BMI, JSON Formatter, and more.",
+    "inLanguage": "en-US",
+    "author": {
+      "@type": "Person",
+      "name": "Anph"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://ztools.site/en/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Social Insurance",
+        "item": "https://ztools.site/en/social-insurance/"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Social Insurance",
+    "description": "Social Insurance & Pension Calculator.",
+    "url": "https://ztools.site/en/social-insurance/",
+    "applicationCategory": "UtilityApplication",
+    "operatingSystem": "Any",
+    "browserRequirements": "Requires JavaScript. Works on all modern browsers (Chrome, Firefox, Safari, Edge).",
+    "softwareVersion": "1.0.0",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Anph"
+    },
+    "inLanguage": "en-US",
+    "image": "https://ztools.site/assets/images/logo.svg"
+  }
+]
+</script>
+</head>
+
+<body>
+  
+      <header class="site-header">
+  <div class="header-inner container">
+    <div class="nav-item logo-wrapper">
+      <a href="../../en/" class="logo-link">
+        <img src="../../assets/images/logo.svg" alt="ZTools Logo" class="logo-icon" width="28" height="28">
+        <span class="logo-text">ZTools</span>
+      </a>
+
+      <button class="menu-trigger dropdown-toggle" aria-haspopup="true" aria-expanded="false" title="Tools Menu"
+        style="background: none; border: none; padding: 4px; cursor: pointer; display: flex; align-items: center; margin-left: 5px;">
+        <i data-lucide="chevron-down" style="width: 16px; height: 16px; color: var(--text-muted); opacity: 0.6;"></i>
+      </button>
+
+
+      <div class="header-nav hide-mobile" style="margin-left: 1.5rem; display: flex; gap: 1rem;">
+        <a href="../../en/bookmark-creator/" class="nav-link-prominent"
+          style="display: flex; align-items: center; gap: 0.5rem; font-weight: 600; color: var(--primary-color);">
+          <span class="pulse-icon"><i data-lucide="star" style="width: 18px; height: 18px;"></i></span>
+          Bookmark Creator
+        </a>
+      </div>
+
+      <div class="dropdown-menu mega-menu">
+  <div class="mega-sidebar">
+    <div class="mega-sidebar-header">
+      <a href="../../en/" class="sidebar-logo logo-link">
+        <img src="../../assets/images/logo.svg" alt="ZTools Logo" class="logo-icon" width="28" height="28">
+        <span class="logo-text">ZTools</span>
+      </a>
+    </div>
+    <div class="mega-sidebar-links">
+      <a href="../../en/categories/"
+        class="mega-side-link ">
+        <span class="icon-wrap"><i data-lucide="folder-kanban"></i></span>
+        <span class="link-text">
+          Categories
+        </span>
+      </a>
+      <a href="../../en/blog/" class="mega-side-link ">
+        <span class="icon-wrap"><i data-lucide="pen-tool"></i></span>
+        <span class="link-text">
+          Dev Blog
+        </span>
+      </a>
+      <a href="../../en/bookmark-creator/"
+        class="mega-side-link ">
+        <span class="icon-wrap"><i data-lucide="star"></i></span>
+        <span class="link-text">
+          Bookmark Creator
+        </span>
+      </a>
+      <a href="../../en/changelog/"
+        class="mega-side-link ">
+        <span class="icon-wrap"><i data-lucide="history"></i></span>
+        <span class="link-text">Changelogs</span>
+      </a>
+    </div>
+  </div>
+
+  <div class="mega-content-wrap">
+    
+      <div class="mega-grid">
+        
+          <div class="mega-cat-card accent-blue">
+            <div class="mega-cat-header">
+              <span class="mega-cat-icon"><i data-lucide="briefcase"></i></span>
+              <span class="mega-cat-title">
+                Job &amp; Income
+              </span>
+            </div>
+            <div class="mega-cat-links">
+              
+                <a href="../../en/business-tax/"
+                  class="mega-tool-link mode-standard-only ">
+                  <span class="tool-dot"></span>
+                  <span class="tool-label">
+                    Corporate Income Tax (CIT) Calc
+                  </span>
+                  
+                    <span class="tool-badge beta"
+                      style="font-size: 0.5rem; padding: 1px 4px; margin-left: auto;">BETA</span>
+                    
+                </a>
+                
+                <a href="../../en/freelancer-tax/"
+                  class="mega-tool-link mode-standard-only ">
+                  <span class="tool-dot"></span>
+                  <span class="tool-label">
+                    Freelancer &amp; Business Tax
+                  </span>
+                  
+                    <span class="tool-badge beta"
+                      style="font-size: 0.5rem; padding: 1px 4px; margin-left: auto;">BETA</span>
+                    
+                </a>
+                
+                <a href="../../en/ot-calculator/"
+                  class="mega-tool-link mode-standard-only ">
+                  <span class="tool-dot"></span>
+                  <span class="tool-label">
+                    Overtime Calculator
+                  </span>
+                  
+                    <span class="tool-badge beta"
+                      style="font-size: 0.5rem; padding: 1px 4px; margin-left: auto;">BETA</span>
+                    
+                </a>
+                
+                <a href="../../en/salary-tax-master/"
+                  class="mega-tool-link mode-advanced-only ">
+                  <span class="tool-dot"></span>
+                  <span class="tool-label">
+                    Salary &amp; Tax Master
+                  </span>
+                  
+                </a>
+                
+                <a href="../../en/social-insurance/"
+                  class="mega-tool-link mode-standard-only active">
+                  <span class="tool-dot"></span>
+                  <span class="tool-label">
+                    Social Insurance
+                  </span>
+                  
+                    <span class="tool-badge beta"
+                      style="font-size: 0.5rem; padding: 1px 4px; margin-left: auto;">BETA</span>
+                    
+                </a>
+                
+                <a href="../../en/tax/"
+                  class="mega-tool-link mode-standard-only ">
+                  <span class="tool-dot"></span>
+                  <span class="tool-label">
+                    PIT Calculator
+                  </span>
+                  
+                      <span class="tool-badge hot"
+                        style="font-size: 0.5rem; padding: 1px 4px; margin-left: auto; position: static; width: auto; transform: none; background: #fff7ed; color: #c2410c; border: 1px solid #fb923c;">
+                        <i data-lucide="sparkles" style="width: 10px; height: 10px;"></i>
+                      </span>
+                      
+                </a>
+                
+            </div>
+          </div>
+          
+          <div class="mega-cat-card accent-green">
+            <div class="mega-cat-header">
+              <span class="mega-cat-icon"><i data-lucide="line-chart"></i></span>
+              <span class="mega-cat-title">
+                Finance &amp; Banking
+              </span>
+            </div>
+            <div class="mega-cat-links">
+              
+                <a href="../../en/compound-interest/"
+                  class="mega-tool-link  ">
+                  <span class="tool-dot"></span>
+                  <span class="tool-label">
+                    Compound Interest Calculator
+                  </span>
+                  
+                    <span class="tool-badge beta"
+                      style="font-size: 0.5rem; padding: 1px 4px; margin-left: auto;">BETA</span>
+                    
+                </a>
+                
+                <a href="../../en/inflation-calculator/"
+                  class="mega-tool-link  ">
+                  <span class="tool-dot"></span>
+                  <span class="tool-label">
+                    Inflation Calculator (Vietnam)
+                  </span>
+                  
+                    <span class="tool-badge beta"
+                      style="font-size: 0.5rem; padding: 1px 4px; margin-left: auto;">BETA</span>
+                    
+                </a>
+                
+                <a href="../../en/investment-calc/"
+                  class="mega-tool-link  ">
+                  <span class="tool-dot"></span>
+                  <span class="tool-label">
+                    Investment ROI Calculator
+                  </span>
+                  
+                    <span class="tool-badge beta"
+                      style="font-size: 0.5rem; padding: 1px 4px; margin-left: auto;">BETA</span>
+                    
+                </a>
+                
+                <a href="../../en/loan-calculator/"
+                  class="mega-tool-link  ">
+                  <span class="tool-dot"></span>
+                  <span class="tool-label">
+                    Loan Calculator
+                  </span>
+                  
+                </a>
+                
+                <a href="../../en/percentage-calculator/"
+                  class="mega-tool-link  ">
+                  <span class="tool-dot"></span>
+                  <span class="tool-label">
+                    Percentage Calculator
+                  </span>
+                  
+                </a>
+                
+                <a href="../../en/savings-interest/"
+                  class="mega-tool-link  ">
+                  <span class="tool-dot"></span>
+                  <span class="tool-label">
+                    Savings Interest Calculator
+                  </span>
+                  
+                    <span class="tool-badge beta"
+                      style="font-size: 0.5rem; padding: 1px 4px; margin-left: auto;">BETA</span>
+                    
+                </a>
+                
+            </div>
+          </div>
+          
+          <div class="mega-cat-card accent-slate">
+            <div class="mega-cat-header">
+              <span class="mega-cat-icon"><i data-lucide="type"></i></span>
+              <span class="mega-cat-title">
+                Text Tools
+              </span>
+            </div>
+            <div class="mega-cat-links">
+              
+                <a href="../../en/lorem-ipsum/"
+                  class="mega-tool-link  ">
+                  <span class="tool-dot"></span>
+                  <span class="tool-label">
+                    Lorem Ipsum Generator
+                  </span>
+                  
+                    <span class="tool-badge beta"
+                      style="font-size: 0.5rem; padding: 1px 4px; margin-left: auto;">BETA</span>
+                    
+                </a>
+                
+                <a href="../../en/text-diff/"
+                  class="mega-tool-link mode-advanced-only ">
+                  <span class="tool-dot"></span>
+                  <span class="tool-label">
+                    Text Diff Checker
+                  </span>
+                  
+                </a>
+                
+                <a href="../../en/text-formatter/"
+                  class="mega-tool-link  ">
+                  <span class="tool-dot"></span>
+                  <span class="tool-label">
+                    Text Formatter - Clear Style
+                  </span>
+                  
+                </a>
+                
+                <a href="../../en/word-counter/"
+                  class="mega-tool-link  ">
+                  <span class="tool-dot"></span>
+                  <span class="tool-label">
+                    Word Counter &amp; Analyzer
+                  </span>
+                  
+                </a>
+                
+            </div>
+          </div>
+          
+          <div class="mega-cat-card accent-pink">
+            <div class="mega-cat-header">
+              <span class="mega-cat-icon"><i data-lucide="wand-2"></i></span>
+              <span class="mega-cat-title">
+                Generator Tools
+              </span>
+            </div>
+            <div class="mega-cat-links">
+              
+                <a href="../../en/password-generator/"
+                  class="mega-tool-link  ">
+                  <span class="tool-dot"></span>
+                  <span class="tool-label">
+                    Strong Password Generator
+                  </span>
+                  
+                </a>
+                
+                <a href="../../en/uuid-generator/"
+                  class="mega-tool-link  ">
+                  <span class="tool-dot"></span>
+                  <span class="tool-label">
+                    UUID Generator
+                  </span>
+                  
+                </a>
+                
+            </div>
+          </div>
+          
+          <div class="mega-cat-card accent-orange">
+            <div class="mega-cat-header">
+              <span class="mega-cat-icon"><i data-lucide="calendar"></i></span>
+              <span class="mega-cat-title">
+                Daily Utilities
+              </span>
+            </div>
+            <div class="mega-cat-links">
+              
+                <a href="../../en/bmi/"
+                  class="mega-tool-link  ">
+                  <span class="tool-dot"></span>
+                  <span class="tool-label">
+                    BMI Calculator
+                  </span>
+                  
+                </a>
+                
+                <a href="../../en/bookmark-creator/"
+                  class="mega-tool-link  ">
+                  <span class="tool-dot"></span>
+                  <span class="tool-label">
+                    Bookmark Creator
+                  </span>
+                  
+                </a>
+                
+                <a href="../../en/date-time-master/"
+                  class="mega-tool-link mode-advanced-only ">
+                  <span class="tool-dot"></span>
+                  <span class="tool-label">
+                    Date &amp; Time Master
+                  </span>
+                  
+                    <span class="tool-badge beta"
+                      style="font-size: 0.5rem; padding: 1px 4px; margin-left: auto;">BETA</span>
+                    
+                </a>
+                
+                <a href="../../en/date-toolkit/"
+                  class="mega-tool-link mode-standard-only ">
+                  <span class="tool-dot"></span>
+                  <span class="tool-label">
+                    Date Toolkit
+                  </span>
+                  
+                    <span class="tool-badge beta"
+                      style="font-size: 0.5rem; padding: 1px 4px; margin-left: auto;">BETA</span>
+                    
+                </a>
+                
+                <a href="../../en/lunar-calendar/"
+                  class="mega-tool-link  ">
+                  <span class="tool-dot"></span>
+                  <span class="tool-label">
+                    Lunar Calendar
+                  </span>
+                  
+                    <span class="tool-badge beta"
+                      style="font-size: 0.5rem; padding: 1px 4px; margin-left: auto;">BETA</span>
+                    
+                </a>
+                
+                <a href="../../en/random-toolkit/"
+                  class="mega-tool-link  ">
+                  <span class="tool-dot"></span>
+                  <span class="tool-label">
+                    Random Toolkit
+                  </span>
+                  
+                    <span class="tool-badge beta"
+                      style="font-size: 0.5rem; padding: 1px 4px; margin-left: auto;">BETA</span>
+                    
+                </a>
+                
+                <a href="../../en/unit-converter/"
+                  class="mega-tool-link  ">
+                  <span class="tool-dot"></span>
+                  <span class="tool-label">
+                    Unit Converter
+                  </span>
+                  
+                </a>
+                
+            </div>
+          </div>
+          
+          <div class="mega-cat-card accent-purple">
+            <div class="mega-cat-header">
+              <span class="mega-cat-icon"><i data-lucide="code"></i></span>
+              <span class="mega-cat-title">
+                Dev Tools
+              </span>
+            </div>
+            <div class="mega-cat-links">
+              
+                <a href="../../en/cron-parser/"
+                  class="mega-tool-link mode-advanced-only ">
+                  <span class="tool-dot"></span>
+                  <span class="tool-label">
+                    Cron Expression Parser
+                  </span>
+                  
+                </a>
+                
+                <a href="../../en/dev-toolkit/"
+                  class="mega-tool-link mode-advanced-only ">
+                  <span class="tool-dot"></span>
+                  <span class="tool-label">
+                    Developer Toolkit
+                  </span>
+                  
+                </a>
+                
+                <a href="../../en/hash-toolkit/"
+                  class="mega-tool-link  ">
+                  <span class="tool-dot"></span>
+                  <span class="tool-label">
+                    Base64 &amp; Hash Toolkit
+                  </span>
+                  
+                    <span class="tool-badge beta"
+                      style="font-size: 0.5rem; padding: 1px 4px; margin-left: auto;">BETA</span>
+                    
+                </a>
+                
+                <a href="../../en/json-toolkit/"
+                  class="mega-tool-link mode-advanced-only ">
+                  <span class="tool-dot"></span>
+                  <span class="tool-label">
+                    JSON Toolkit
+                  </span>
+                  
+                      <span class="tool-badge hot"
+                        style="font-size: 0.5rem; padding: 1px 4px; margin-left: auto; position: static; width: auto; transform: none; background: #fff7ed; color: #c2410c; border: 1px solid #fb923c;">
+                        <i data-lucide="sparkles" style="width: 10px; height: 10px;"></i>
+                      </span>
+                      
+                </a>
+                
+                <a href="../../en/jwt-toolkit/"
+                  class="mega-tool-link mode-advanced-only ">
+                  <span class="tool-dot"></span>
+                  <span class="tool-label">
+                    JWT Debugger &amp; Decoder
+                  </span>
+                  
+                </a>
+                
+                <a href="../../en/qr-generator/"
+                  class="mega-tool-link  ">
+                  <span class="tool-dot"></span>
+                  <span class="tool-label">
+                    QR Code Generator
+                  </span>
+                  
+                    <span class="tool-badge beta"
+                      style="font-size: 0.5rem; padding: 1px 4px; margin-left: auto;">BETA</span>
+                    
+                </a>
+                
+                <a href="../../en/timestamp-converter/"
+                  class="mega-tool-link mode-standard-only ">
+                  <span class="tool-dot"></span>
+                  <span class="tool-label">
+                    Timestamp Converter
+                  </span>
+                  
+                    <span class="tool-badge beta"
+                      style="font-size: 0.5rem; padding: 1px 4px; margin-left: auto;">BETA</span>
+                    
+                </a>
+                
+                <a href="../../en/url-toolkit/"
+                  class="mega-tool-link  ">
+                  <span class="tool-dot"></span>
+                  <span class="tool-label">
+                    URL &amp; Base64 Toolkit
+                  </span>
+                  
+                    <span class="tool-badge beta"
+                      style="font-size: 0.5rem; padding: 1px 4px; margin-left: auto;">BETA</span>
+                    
+                </a>
+                
+                <a href="../../en/web-playground/"
+                  class="mega-tool-link mode-advanced-only ">
+                  <span class="tool-dot"></span>
+                  <span class="tool-label">
+                    zTool Playground
+                  </span>
+                  
+                      <span class="tool-badge hot"
+                        style="font-size: 0.5rem; padding: 1px 4px; margin-left: auto; position: static; width: auto; transform: none; background: #fff7ed; color: #c2410c; border: 1px solid #fb923c;">
+                        <i data-lucide="sparkles" style="width: 10px; height: 10px;"></i>
+                      </span>
+                      
+                </a>
+                
+            </div>
+          </div>
+          
+      </div>
+  </div>
+</div>
+    </div>
+
+    <div class="header-actions">
+      <!-- Desktop Search Box -->
+      <div class="header-search-box desktop-only" id="header-search-box">
+        <span class="search-box-icon"><i data-lucide="search" style="width: 18px; height: 18px;"></i></span>
+        <input type="text" class="header-search-input" placeholder="Search tools... (Ctrl + K)" readonly>
+        <kbd>Ctrl+K</kbd>
+      </div>
+
+      <a href="../../en/categories/" class="btn-icon" title="Categories"
+        aria-label="Categories">
+        <i data-lucide="grid-3x3"></i>
+      </a>
+
+      <button id="search-btn-mobile" class="btn-icon search-trigger mobile-only" title="Search Tools"
+        aria-label="Search">
+        <i data-lucide="search"></i>
+      </button>
+
+      <a href="../../vi/social-insurance/" class="lang-switch"
+        title="Switch Language" aria-label="Switch to Vietnamese">
+        <span aria-hidden="true">
+          🇻🇳
+        </span>
+      </a>
+      <button id="mode-toggle" class="mode-toggle-btn" title="Advanced Mode (Comprehensive, Master Tools)"
+        aria-label="Toggle User Mode">
+        <span class="mode-text">
+          Standard
+        </span>
+        <div class="mode-switch">
+          <div class="mode-slider">
+            <span class="mode-icon"><i data-lucide="zap" style="width: 12px; height: 12px;"></i></span>
+          </div>
+        </div>
+        <span class="mode-text">
+          Advanced
+        </span>
+      </button>
+
+      <button id="theme-toggle" class="btn-icon" aria-label="Toggle Dark Mode">
+        <i data-lucide="moon"></i>
+      </button>
+    </div>
+  </div>
+
+  <!-- Search Overlay / Modal (Reusable by hidden header mode) -->
+<div id="search-modal" class="search-modal">
+  <div class="search-overlay"></div>
+  <div class="search-container">
+    <div class="search-header">
+      <span class="search-icon" aria-hidden="true"><i data-lucide="search"></i></span>
+      <input type="text" id="search-input" placeholder="Search tools... (Ctrl + K)" autocomplete="off"
+        aria-label="Search tools... (Ctrl + K)">
+      <button id="close-search" class="close-search"
+        aria-label="Close search">&times;</button>
+    </div>
+    <div id="search-results" class="search-results">
+      <!-- Results will be injected here -->
+    </div>
+    <div class="search-footer">
+      <div class="search-hints">
+        <span><kbd>↵</kbd> Select</span>
+        <span><kbd>↑↓</kbd> Navigate</span>
+        <span><kbd>esc</kbd> Close</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Embed i18n data for client-side JS -->
+<script id="i18n-data" type="application/json">
+  {
+    "search_no_results": "No results found for"
+  }
+</script>
+
+<!-- Embed tools data for client-side search -->
+<script id="tools-data" type="application/json">
+  
+  [{"id":"blog","link":"../../en/blog/","icon":"pen-tool","title":"Dev Stories","desc":"Behind the scenes, coding techniques, and updates from the team.","category":"home.cats.legacy.title"},{"id":"bmi","link":"../../en/bmi/","icon":"scale","title":"BMI Calculator","desc":"Calculate Body Mass Index (BMI). Evaluate your weight status based on international standards.","category":"Daily Utilities"},{"id":"bookmark-creator","link":"../../en/bookmark-creator/","icon":"bookmark","title":"Bookmark Creator","desc":"Create a personal bookmark set for your browser with your favorite ZTools.","category":"Daily Utilities"},{"id":"business-tax","link":"../../en/business-tax/","icon":"briefcase","title":"Corporate Income Tax (CIT) Calc","desc":"Calculate Corporate Income Tax (CIT) for businesses quickly and accurately. Supports both direct and indirect methods.","category":"Job & Income"},{"id":"compound-interest","link":"../../en/compound-interest/","icon":"trending-up","title":"Compound Interest Calculator","desc":"Calculate the future value of your investment with compound interest. Includes monthly contributions and customizable compounding frequency.","category":"Finance & Banking"},{"id":"cron-parser","link":"../../en/cron-parser/","icon":"terminal","title":"Cron Expression Parser","desc":"Convert Cron expressions into human-readable text.","category":"Dev Tools"},{"id":"date-time-master","link":"../../en/date-time-master/","icon":"calendar-clock","title":"Date & Time Master","desc":"All-in-one time tool: Calculate distance, add/subtract dates, and Unix conversion.","category":"Daily Utilities"},{"id":"date-toolkit","link":"../../en/date-toolkit/","icon":"calendar-days","title":"Date Toolkit","desc":"Calculate distance between dates, add/subtract time, and countdown.","category":"Daily Utilities"},{"id":"dev-toolkit","link":"../../en/dev-toolkit/","icon":"code","title":"Developer Toolkit","desc":"Comprehensive toolkit for developers","category":"Dev Tools"},{"id":"freelancer-tax","link":"../../en/freelancer-tax/","icon":"receipt","title":"Freelancer & Business Tax","desc":"Calculate tax for withholding (10%) or personal business households.","category":"Job & Income"},{"id":"glassmorphism-generator","link":"../../en/glassmorphism-generator/","icon":"sparkles","title":"Glassmorphism Generator","desc":"Create stunning frosted glass UI effects with real-time preview","category":"home.cats.dev-tools.title"},{"id":"hash-toolkit","link":"../../en/hash-toolkit/","icon":"lock","title":"Base64 & Hash Toolkit","desc":"Quickly encode/decode Base64 and generate cryptographic hashes like MD5 and SHA256.","category":"Dev Tools"},{"id":"inflation-calculator","link":"../../en/inflation-calculator/","icon":"line-chart","title":"Inflation Calculator (Vietnam)","desc":"See how much your money has lost or gained value over time.","category":"Finance & Banking"},{"id":"investment-calc","link":"../../en/investment-calc/","icon":"piggy-bank","title":"Investment ROI Calculator","desc":"Calculate your Return on Investment (ROI) and Annual Yield.","category":"Finance & Banking"},{"id":"json-toolkit","link":"../../en/json-toolkit/","icon":"braces","title":"JSON Toolkit","desc":"Format, validate, and convert JSON. Includes Tree View and data processing tools.","category":"Dev Tools"},{"id":"jwt-toolkit","link":"../../en/jwt-toolkit/","icon":"key","title":"JWT Debugger & Decoder","desc":"Decode, verify and inspect JSON Web Tokens (JWT) safely in your browser.","category":"Dev Tools"},{"id":"loan-calculator","link":"../../en/loan-calculator/","icon":"home","title":"Loan Calculator","desc":"Calculate monthly payments for loans, amortized schedule with reducing balance or flat rate options.","category":"Finance & Banking"},{"id":"lorem-ipsum","link":"../../en/lorem-ipsum/","icon":"pilcrow","title":"Lorem Ipsum Generator","desc":"Generate placeholder text for designs and mockups.","category":"Text Tools"},{"id":"lunar-calendar","link":"../../en/lunar-calendar/","icon":"moon","title":"Lunar Calendar","desc":"Convert Solar to Lunar calendar, view Can Chi and Good Hours","category":"Daily Utilities"},{"id":"ot-calculator","link":"../../en/ot-calculator/","icon":"clock","title":"Overtime Calculator","desc":"Calculate accurately your overtime pay based on Vietnam Labor Law","category":"Job & Income"},{"id":"password-generator","link":"../../en/password-generator/","icon":"key-round","title":"Strong Password Generator","desc":"Generate secure, random passwords instantly.","category":"Generator Tools"},{"id":"percentage-calculator","link":"../../en/percentage-calculator/","icon":"percent","title":"Percentage Calculator","desc":"Calculate percentages easily. Find percentage of a number, percentage change, or what percentage one number is of another.","category":"Finance & Banking"},{"id":"qr-generator","link":"../../en/qr-generator/","icon":"qr-code","title":"QR Code Generator","desc":"Generate high-quality QR codes for URLs, text, and more. Works entirely offline for privacy.","category":"Dev Tools"},{"id":"random-toolkit","link":"../../en/random-toolkit/","icon":"dices","title":"Random Toolkit","desc":"Generate random numbers, pick items from list, and roll dice.","category":"Daily Utilities"},{"id":"salary-tax-master","link":"../../en/salary-tax-master/","icon":"wallet","title":"Salary & Tax Master","desc":"Full Salary & Tax Suite","category":"Job & Income"},{"id":"savings-interest","link":"../../en/savings-interest/","icon":"coins","title":"Savings Interest Calculator","desc":"Calculate bank savings interest quickly. Supports term deposits with end-of-term or monthly interest payout.","category":"Finance & Banking"},{"id":"social-insurance","link":"../../en/social-insurance/","icon":"shield-plus","title":"Social Insurance","desc":"Social Insurance & Pension Calculator.","category":"Job & Income"},{"id":"tax","link":"../../en/tax/","icon":"banknote","title":"PIT Calculator","desc":"Calculate Personal Income Tax 2024, Net/Gross salary converter.","category":"Job & Income"},{"id":"text-diff","link":"../../en/text-diff/","icon":"file-diff","title":"Text Diff Checker","desc":"Compare two texts and highlight differences (additions, deletions, changes).","category":"Text Tools"},{"id":"text-formatter","link":"../../en/text-formatter/","icon":"wand-2","title":"Text Formatter - Clear Style","desc":"Remove formatting and clean up text copied from web pages.","category":"Text Tools"},{"id":"timestamp-converter","link":"../../en/timestamp-converter/","icon":"clock","title":"Timestamp Converter","desc":"Convert between Unix timestamps and human-readable dates.","category":"Dev Tools"},{"id":"unit-converter","link":"../../en/unit-converter/","icon":"ruler","title":"Unit Converter","desc":"Convert length, weight, volume, area, temperature, and more.","category":"Daily Utilities"},{"id":"url-toolkit","link":"../../en/url-toolkit/","icon":"link","title":"URL & Base64 Toolkit","desc":"Encode/Decode URL, Base64 and parse URL structure quickly.","category":"Dev Tools"},{"id":"uuid-generator","link":"../../en/uuid-generator/","icon":"fingerprint","title":"UUID Generator","desc":"Generate random UUIDs/GUIDs (V1, V4, V7) instantly.","category":"Generator Tools"},{"id":"web-playground","link":"../../en/web-playground/","icon":"code-2","title":"zTool Playground","desc":"Online HTML/CSS/JS editor, runs directly in your browser, server-less sharing.","category":"Dev Tools"},{"id":"word-counter","link":"../../en/word-counter/","icon":"bar-chart-3","title":"Word Counter & Analyzer","desc":"Count words, analyze frequency, and convert case (Case Converter).","category":"Text Tools"}]
+</script>
+</header>
+        
+
+          <main class="container">
+            <!-- title: Social Insurance - ZTools -->
+
+<link rel="stylesheet" href="../../assets/features/social-insurance/style.css?h=88e63a62">
+
+<section class="tool-container">
+  <div class="page-header">
+    <h1>🏥 Social Insurance
+    
+      
+        <button class="version-badge" id="open-changelog" aria-label="View Changelog">v1.0.0</button>
+      </h1>
+    <p>
+      Social Insurance &amp; Pension Calculator.
+    </p>
+  </div>
+
+  <!-- Tab Navigation -->
+  <div class="calculator-card">
+    <nav class="tab-nav">
+      <button class="tab-btn active" data-tab="contribution" onclick="switchTab('contribution')">
+        💰 Tính đóng BHXH
+      </button>
+      <button class="tab-btn" data-tab="pension" onclick="switchTab('pension')">
+        👴 Lương hưu
+      </button>
+      <button class="tab-btn" data-tab="onetime" onclick="switchTab('onetime')">
+        💵 BHXH 1 lần
+      </button>
+    </nav>
+
+    <!-- Tab 1: BHXH Contribution Calculator -->
+    <div id="tab-contribution" class="tab-panel active">
+      <h3>Tính mức đóng BHXH, BHYT, BHTN hàng tháng</h3>
+
+      <form id="contribution-form" class="insurance-form">
+        <div class="form-group">
+          <label for="salary">Lương đóng BHXH (VNĐ/tháng)</label>
+          <div class="input-group">
+            <input type="text" id="salary" placeholder="Ví dụ: 15.000.000" inputmode="numeric">
+            <span class="input-suffix">VNĐ</span>
+          </div>
+          <small class="hint">Lương làm căn cứ đóng bảo hiểm (thường là lương cơ bản + phụ cấp)</small>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="region">Vùng lương tối thiểu</label>
+            <select id="region">
+              <option value="1">Vùng I - 4.960.000đ</option>
+              <option value="2">Vùng II - 4.410.000đ</option>
+              <option value="3">Vùng III - 3.860.000đ</option>
+              <option value="4">Vùng IV - 3.450.000đ</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="insurance-type">Loại hình tham gia</label>
+            <select id="insurance-type">
+              <option value="mandatory">Bắt buộc (Người lao động)</option>
+              <option value="voluntary">Tự nguyện</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="info-box">
+          <h4>📋 Tỷ lệ đóng BHXH, BHYT, BHTN</h4>
+          <table class="rate-table">
+            <thead>
+              <tr>
+                <th>Loại BH</th>
+                <th>Người lao động</th>
+                <th>Doanh nghiệp</th>
+                <th>Tổng</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>BHXH</strong></td>
+                <td>8%</td>
+                <td>17.5%</td>
+                <td>25.5%</td>
+              </tr>
+              <tr>
+                <td><strong>BHYT</strong></td>
+                <td>1.5%</td>
+                <td>3%</td>
+                <td>4.5%</td>
+              </tr>
+              <tr>
+                <td><strong>BHTN</strong></td>
+                <td>1%</td>
+                <td>1%</td>
+                <td>2%</td>
+              </tr>
+              <tr class="total-row">
+                <td><strong>Tổng cộng</strong></td>
+                <td><strong>10.5%</strong></td>
+                <td><strong>21.5%</strong></td>
+                <td><strong>32%</strong></td>
+              </tr>
+            </tbody>
+          </table>
+          <small style="margin-top: 0.5rem; display: block; color: var(--text-muted);">
+            * Trần BHXH, BHYT: 46.800.000đ | Trần BHTN: 20 × Lương tối thiểu vùng
+          </small>
+        </div>
+
+        <div class="button-group">
+          <button type="button" id="btn-calculate-contribution" class="btn-calculate">Tính toán</button>
+          <button type="button" id="btn-reset-contribution" class="btn-reset">Nhập lại</button>
+        </div>
+
+        <!-- Contribution Results -->
+        <div id="contribution-results" class="result-section">
+          <h3>Kết quả tính đóng BHXH</h3>
+
+          <div class="result-grid">
+            <div class="result-card employee">
+              <h4>👤 Người lao động đóng</h4>
+              <div class="result-item">
+                <span>BHXH (8%)</span>
+                <strong id="employee-bhxh">0 đ</strong>
+              </div>
+              <div class="result-item">
+                <span>BHYT (1.5%)</span>
+                <strong id="employee-bhyt">0 đ</strong>
+              </div>
+              <div class="result-item">
+                <span>BHTN (1%)</span>
+                <strong id="employee-bhtn">0 đ</strong>
+              </div>
+              <div class="result-item total">
+                <span>Tổng khấu trừ</span>
+                <strong id="employee-total">0 đ</strong>
+              </div>
+            </div>
+
+            <div class="result-card employer">
+              <h4>🏢 Doanh nghiệp đóng</h4>
+              <div class="result-item">
+                <span>BHXH (17.5%)</span>
+                <strong id="employer-bhxh">0 đ</strong>
+              </div>
+              <div class="result-item">
+                <span>BHYT (3%)</span>
+                <strong id="employer-bhyt">0 đ</strong>
+              </div>
+              <div class="result-item">
+                <span>BHTN (1%)</span>
+                <strong id="employer-bhtn">0 đ</strong>
+              </div>
+              <div class="result-item total">
+                <span>Tổng chi phí</span>
+                <strong id="employer-total">0 đ</strong>
+              </div>
+            </div>
+          </div>
+
+          <div class="summary-box">
+            <div class="summary-item">
+              <span>💼 Lương trước khi trừ BH</span>
+              <strong id="salary-before">0 đ</strong>
+            </div>
+            <div class="summary-item">
+              <span>💸 Lương thực nhận (sau trừ BH)</span>
+              <strong id="salary-after" class="highlight">0 đ</strong>
+            </div>
+            <div class="summary-item">
+              <span>🏭 Tổng chi phí DN phải trả</span>
+              <strong id="total-cost">0 đ</strong>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <!-- Tab 2: Pension Calculator -->
+    <div id="tab-pension" class="tab-panel">
+      <h3>Dự tính lương hưu hàng tháng</h3>
+
+      <form id="pension-form" class="insurance-form">
+        <div class="form-group">
+          <label for="avg-salary">Lương bình quân đóng BHXH (VNĐ/tháng)</label>
+          <div class="input-group">
+            <input type="text" id="avg-salary" placeholder="Ví dụ: 20.000.000" inputmode="numeric">
+            <span class="input-suffix">VNĐ</span>
+          </div>
+          <small class="hint">Bình quân lương đóng BHXH của toàn bộ thời gian đóng</small>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="years-contributed">Số năm đóng BHXH</label>
+            <div class="input-group">
+              <input type="number" id="years-contributed" placeholder="Ví dụ: 25" min="15" max="50">
+              <span class="input-suffix">năm</span>
+            </div>
+            <small class="hint">Tối thiểu 20 năm để được hưởng lương hưu</small>
+          </div>
+
+          <div class="form-group">
+            <label for="gender">Giới tính</label>
+            <select id="gender">
+              <option value="male">Nam (60 tuổi)</option>
+              <option value="female">Nữ (55 tuổi)</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="info-box">
+          <h4>📋 Công thức tính lương hưu</h4>
+          <div style="background: var(--bg-color); padding: 1rem; border-radius: 8px; margin-top: 0.5rem;">
+            <p style="margin-bottom: 0.5rem;"><strong>Lương hưu = Lương bình quân × Tỷ lệ hưởng</strong></p>
+            <ul style="margin: 0; padding-left: 1.5rem; color: var(--text-muted);">
+              <li><strong>Tỷ lệ 45%:</strong> Nam 20 năm, Nữ 15 năm</li>
+              <li>Mỗi năm tiếp theo: +2% (tối đa 75%)</li>
+              <li>Ví dụ: Nữ 25 năm = 45% + (10 × 2%) = 65%</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="button-group">
+          <button type="button" id="btn-calculate-pension" class="btn-calculate">Tính lương hưu</button>
+          <button type="button" id="btn-reset-pension" class="btn-reset">Nhập lại</button>
+        </div>
+
+        <!-- Pension Results -->
+        <div id="pension-results" class="result-section">
+          <h3>Kết quả dự tính lương hưu</h3>
+
+          <div class="pension-breakdown">
+            <div class="breakdown-item">
+              <span>Lương bình quân đóng BHXH</span>
+              <strong id="pension-avg-salary">0 đ</strong>
+            </div>
+            <div class="breakdown-item">
+              <span>Số năm đóng BHXH</span>
+              <strong id="pension-years">0 năm</strong>
+            </div>
+            <div class="breakdown-item">
+              <span>Tỷ lệ hưởng lương hưu</span>
+              <strong id="pension-rate">0%</strong>
+            </div>
+            <div class="breakdown-item highlight">
+              <span>💰 Lương hưu hàng tháng</span>
+              <strong id="pension-amount" class="total">0 đ</strong>
+            </div>
+          </div>
+
+          <div class="info-box" style="margin-top: 1.5rem;">
+            <h4>📊 Dự tính thu nhập hưu trí</h4>
+            <div class="projection-grid">
+              <div class="projection-item">
+                <span>Hàng năm</span>
+                <strong id="pension-yearly">0 đ</strong>
+              </div>
+              <div class="projection-item">
+                <span>10 năm</span>
+                <strong id="pension-10years">0 đ</strong>
+              </div>
+              <div class="projection-item">
+                <span>20 năm</span>
+                <strong id="pension-20years">0 đ</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <!-- Tab 3: One-time BHXH Calculator -->
+    <div id="tab-onetime" class="tab-panel">
+      <h3>Tính BHXH một lần khi thôi việc</h3>
+
+      <form id="onetime-form" class="insurance-form">
+        <div class="form-group">
+          <label for="onetime-salary">Lương bình quân 6 tháng gần nhất (VNĐ)</label>
+          <div class="input-group">
+            <input type="text" id="onetime-salary" placeholder="Ví dụ: 18.000.000" inputmode="numeric">
+            <span class="input-suffix">VNĐ</span>
+          </div>
+          <small class="hint">Bình quân lương đóng BHXH của 6 tháng trước khi thôi việc</small>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="years-pre-2014">Số năm trước 2014</label>
+            <div class="input-group">
+              <input type="number" id="years-pre-2014" placeholder="0" min="0" max="40" step="0.5">
+              <span class="input-suffix">năm</span>
+            </div>
+            <small class="hint">Hệ số 1.5 tháng/năm</small>
+          </div>
+          <div class="form-group">
+            <label for="years-post-2014">Số năm từ 2014</label>
+            <div class="input-group">
+              <input type="number" id="years-post-2014" placeholder="0" min="0" max="40" step="0.5">
+              <span class="input-suffix">năm</span>
+            </div>
+            <small class="hint">Hệ số 2.0 tháng/năm</small>
+          </div>
+        </div>
+
+        <div class="info-box">
+          <h4>📋 Điều kiện nhận BHXH một lần</h4>
+          <ul style="margin: 0.5rem 0 0 1.5rem; color: var(--text-muted);">
+            <li>Sau 1 năm nghỉ việc không đóng BHXH</li>
+            <li>Ra nước ngoài định cư</li>
+            <li>Mắc bệnh hiểm nghèo</li>
+          </ul>
+          <p style="margin-top: 0.5rem; font-size: 0.9rem; color: var(--text-muted);">
+            <strong>Công thức:</strong> (1.5 × Năm trước 2014 + 2.0 × Năm từ 2014) × Lương BQ
+          </p>
+        </div>
+
+        <div class="button-group">
+          <button type="button" id="btn-calculate-onetime" class="btn-calculate">Tính BHXH 1 lần</button>
+          <button type="button" id="btn-reset-onetime" class="btn-reset">Nhập lại</button>
+        </div>
+
+        <!-- One-time Results -->
+        <div id="onetime-results" class="result-section">
+          <h3>Kết quả tính BHXH một lần</h3>
+
+          <div class="onetime-breakdown">
+            <div class="breakdown-item">
+              <span>Lương bình quân 6 tháng</span>
+              <strong id="onetime-avg">0 đ</strong>
+            </div>
+            <div class="breakdown-item">
+              <span>Tổng số năm đóng</span>
+              <strong id="onetime-total-years">0 năm</strong>
+            </div>
+            <div class="breakdown-item">
+              <span>Hệ số hưởng</span>
+              <strong id="onetime-coefficient">0 tháng</strong>
+            </div>
+            <div class="breakdown-item highlight">
+              <span>💰 Số tiền BHXH nhận một lần</span>
+              <strong id="onetime-amount" class="total">0 đ</strong>
+            </div>
+          </div>
+
+          <div class="warning-box">
+            <p>
+              ⚠️ <strong>Lưu ý:</strong> Khi nhận BHXH một lần, bạn sẽ không được hưởng lương hưu và
+              các chế độ BHXH khác. Hãy cân nhắc kỹ trước khi quyết định!
+            </p>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- SEO Content Section -->
+  <section class="card" style="padding: 2rem; margin-top: 3rem;">
+    <h2 style="font-size: 1.5rem; margin-bottom: 1rem;">📚 Hướng dẫn về BHXH & Lương Hưu</h2>
+
+    <h3 style="font-size: 1.2rem; margin-top: 1.5rem; margin-bottom: 0.5rem;">1. BHXH là gì?</h3>
+    <p style="margin-bottom: 1rem; color: var(--text-muted);">
+      Bảo hiểm xã hội (BHXH) là chế độ do Nhà nước tổ chức nhằm đảm bảo quyền lợi cho người lao động
+      khi gặp rủi ro như ốm đau, thai sản, tai nạn lao động, nghỉ hưu, mất việc làm...
+    </p>
+
+    <h3 style="font-size: 1.2rem; margin-top: 1.5rem; margin-bottom: 0.5rem;">2. Ai phải tham gia BHXH bắt buộc?</h3>
+    <ul style="margin-bottom: 1rem; color: var(--text-muted); padding-left: 1.5rem;">
+      <li>Người lao động làm việc theo hợp đồng từ 1 tháng trở lên</li>
+      <li>Công chức, viên chức nhà nước</li>
+      <li>Sĩ quan, hạ sĩ quan, chiến sĩ quân đội</li>
+      <li>Người hoạt động không chuyên trách ở xã, phường, thị trấn</li>
+    </ul>
+
+    <h3 style="font-size: 1.2rem; margin-top: 1.5rem; margin-bottom: 0.5rem;">3. Mức đóng BHXH hiện nay</h3>
+    <ul style="margin-bottom: 1rem; color: var(--text-muted); padding-left: 1.5rem;">
+      <li><strong>BHXH:</strong> Người lao động 8%, Doanh nghiệp 17.5%</li>
+      <li><strong>BHYT:</strong> Người lao động 1.5%, Doanh nghiệp 3%</li>
+      <li><strong>BHTN:</strong> Người lao động 1%, Doanh nghiệp 1%</li>
+      <li><strong>Trần đóng BHXH, BHYT:</strong> 46.800.000đ/tháng</li>
+      <li><strong>Trần đóng BHTN:</strong> 20 × Lương tối thiểu vùng</li>
+    </ul>
+
+    <h3 style="font-size: 1.2rem; margin-top: 1.5rem; margin-bottom: 0.5rem;">4. Điều kiện hưởng lương hưu</h3>
+    <ul style="margin-bottom: 1rem; color: var(--text-muted); padding-left: 1.5rem;">
+      <li>Nam đủ 60 tuổi, nữ đủ 55 tuổi (có xu hướng tăng dần)</li>
+      <li>Đóng BHXH đủ 20 năm trở lên</li>
+      <li>Thôi việc hoặc nghỉ hưu</li>
+    </ul>
+
+    <h3 style="font-size: 1.2rem; margin-top: 1.5rem; margin-bottom: 0.5rem;">5. Lợi ích của việc tham gia BHXH</h3>
+    <ul style="margin-bottom: 1rem; color: var(--text-muted); padding-left: 1.5rem;">
+      <li>✅ Được hưởng lương hưu khi về già</li>
+      <li>✅ Hỗ trợ khi ốm đau, thai sản</li>
+      <li>✅ Bảo vệ khi tai nạn lao động, bệnh nghề nghiệp</li>
+      <li>✅ Trợ cấp khi mất việc làm</li>
+      <li>✅ Trợ cấp tuất hất cho người thân khi qua đời</li>
+    </ul>
+  </section>
+</section>
+
+<script src="../../assets/features/social-insurance/script.js?h=72f2708f"></script>
+
+              
+          </main>
+
+          
+            <footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-col">
+      <h3>
+        ZTools.site
+      </h3>
+      <p>
+        Free, simple, and secure utility tools.
+      </p>
+    </div>
+    <div class="footer-col">
+      <h4>
+        Links
+      </h4>
+      <ul>
+        <li><a href="../../en/about/">
+            About
+          </a></li>
+        <li><a href="../../en/privacy/">
+            Privacy Policy
+          </a></li>
+        <li><a href="../../en/terms/">
+            Terms of Service
+          </a></li>
+        <li><a href="../../en/changelog/">
+            Versions
+          </a></li>
+        <li><a href="https://github.com/ph4n4n/ztools.site-public" target="_blank" rel="noopener noreferrer"
+            aria-label="View Source on GitHub">
+            GitHub Source
+          </a></li>
+      </ul>
+    </div>
+    <div class="footer-copyright">
+      <span>
+        © 2025 ZTools. Built with ❤️.
+      </span>
+      <span>ZTools v1.5.1</span>
+    </div>
+  </div>
+</footer>
+              
+
+                
+                  <!-- Changelog Modal -->
+                  <div id="changelog-modal" class="search-modal">
+                    <div class="search-overlay" id="close-changelog-overlay"></div>
+                    <div class="search-container">
+                      <div class="search-header">
+                        <span class="search-icon"><i data-lucide="file-clock"
+                            style="width: 20px; height: 20px;"></i></span>
+                        <h2 style="flex: 1; margin: 0; font-size: 1.25rem;">
+                          Version History
+                        </h2>
+                        <button id="close-changelog" class="close-search">&times;</button>
+                      </div>
+                      <div class="changelog-content">
+                        <h1>Changelog - social-insurance</h1>
+<h2>[1.0.0] - 2024-12-18</h2>
+<ul>
+<li>Initial release.</li>
+</ul>
+
+                      </div>
+                    </div>
+                  </div>
+                  
+
+                    <script src="../../assets/js/global.js?h=2470ff1f"></script>
+                    <script>
+                      // Initialize Lucide icons
+                      if (window.lucide) {
+                        lucide.createIcons();
+                      }
+                    </script>
+
+                    
+</body>
+
+</html>
