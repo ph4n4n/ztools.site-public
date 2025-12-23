@@ -729,7 +729,103 @@
         
 
           <main class="container">
-            <!-- title: Strong Password Generator - ZTools -->
+            
+  <nav class="breadcrumbs-container" aria-label="Breadcrumb">
+    <ol class="breadcrumbs-list">
+      <li class="breadcrumb-item">
+        <a href="../../en/" class="breadcrumb-link" title="Home">
+          <i data-lucide="home"></i>
+        </a>
+      </li>
+
+      
+        <li class="breadcrumb-separator">
+          <i data-lucide="chevron-right"></i>
+        </li>
+        <li class="breadcrumb-item">
+          <a href="../../en/categories/#cat-generator" class="breadcrumb-link">
+            Generator Tools
+          </a>
+        </li>
+        
+
+          <li class="breadcrumb-separator">
+            <i data-lucide="chevron-right"></i>
+          </li>
+          <li class="breadcrumb-item active" aria-current="page">
+            <span class="breadcrumb-current">
+              Strong Password Generator
+            </span>
+          </li>
+    </ol>
+  </nav>
+
+  <style>
+    .breadcrumbs-container {
+      padding: 1rem 0;
+      margin-bottom: 1rem;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+
+    .breadcrumbs-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .breadcrumb-item {
+      display: flex;
+      align-items: center;
+    }
+
+    .breadcrumb-link {
+      color: var(--text-muted);
+      text-decoration: none;
+      transition: color 0.2s;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    .breadcrumb-link i {
+      width: 14px;
+      height: 14px;
+    }
+
+    .breadcrumb-link:hover {
+      color: var(--primary-color);
+    }
+
+    .breadcrumb-separator {
+      color: var(--border-color);
+      display: flex;
+      align-items: center;
+    }
+
+    .breadcrumb-separator i {
+      width: 14px;
+      height: 14px;
+    }
+
+    .breadcrumb-current {
+      font-weight: 500;
+      color: var(--text-color);
+    }
+
+    @media (max-width: 600px) {
+      .breadcrumbs-container {
+        padding: 0.75rem 0;
+        font-size: 0.75rem;
+      }
+    }
+  </style>
+  
+              <!-- title: Strong Password Generator - ZTools -->
 <link rel="stylesheet" href="../../assets/features/password-generator/style.css?h=5c2df364">
 
 <!-- Auto-generated UI -->
@@ -916,12 +1012,12 @@
 
   <script src="../../assets/features/password-generator/script.js?h=ce2a7da4"></script>
 
-              
-                <section class="card how-to-use-section" style="margin-top: 3rem;">
-                  <h2 style="margin-bottom: 1rem;">📖 How to use
-                  </h2>
-                  <div class="markdown-body">
-                    <h3>How to generate strong passwords</h3>
+                
+                  <section class="card how-to-use-section" style="margin-top: 3rem;">
+                    <h2 style="margin-bottom: 1rem;">📖 How to use
+                    </h2>
+                    <div class="markdown-body">
+                      <h3>How to generate strong passwords</h3>
 <ol>
 <li><strong>Length</strong>: Adjust the slider to choose password length (up to 50 chars). Better length = better security.</li>
 <li><strong>Options</strong>:<ul>
@@ -937,9 +1033,9 @@
 <p><strong>Security Note:</strong>
 All passwords are generated locally in your browser. Nothing is ever sent to our servers.</p>
 
-                  </div>
-                </section>
-                
+                    </div>
+                  </section>
+                  
           </main>
 
           

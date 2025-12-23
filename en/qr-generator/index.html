@@ -729,7 +729,103 @@
         
 
           <main class="container">
-            <!-- title: QR Code Generator - ZTools -->
+            
+  <nav class="breadcrumbs-container" aria-label="Breadcrumb">
+    <ol class="breadcrumbs-list">
+      <li class="breadcrumb-item">
+        <a href="../../en/" class="breadcrumb-link" title="Home">
+          <i data-lucide="home"></i>
+        </a>
+      </li>
+
+      
+        <li class="breadcrumb-separator">
+          <i data-lucide="chevron-right"></i>
+        </li>
+        <li class="breadcrumb-item">
+          <a href="../../en/categories/#cat-dev" class="breadcrumb-link">
+            Dev Tools
+          </a>
+        </li>
+        
+
+          <li class="breadcrumb-separator">
+            <i data-lucide="chevron-right"></i>
+          </li>
+          <li class="breadcrumb-item active" aria-current="page">
+            <span class="breadcrumb-current">
+              QR Code Generator
+            </span>
+          </li>
+    </ol>
+  </nav>
+
+  <style>
+    .breadcrumbs-container {
+      padding: 1rem 0;
+      margin-bottom: 1rem;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+
+    .breadcrumbs-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .breadcrumb-item {
+      display: flex;
+      align-items: center;
+    }
+
+    .breadcrumb-link {
+      color: var(--text-muted);
+      text-decoration: none;
+      transition: color 0.2s;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    .breadcrumb-link i {
+      width: 14px;
+      height: 14px;
+    }
+
+    .breadcrumb-link:hover {
+      color: var(--primary-color);
+    }
+
+    .breadcrumb-separator {
+      color: var(--border-color);
+      display: flex;
+      align-items: center;
+    }
+
+    .breadcrumb-separator i {
+      width: 14px;
+      height: 14px;
+    }
+
+    .breadcrumb-current {
+      font-weight: 500;
+      color: var(--text-color);
+    }
+
+    @media (max-width: 600px) {
+      .breadcrumbs-container {
+        padding: 0.75rem 0;
+        font-size: 0.75rem;
+      }
+    }
+  </style>
+  
+              <!-- title: QR Code Generator - ZTools -->
 <link rel="stylesheet" href="../../assets/features/qr-generator/style.css?h=d74396e9">
 <script src="../../assets/vendor/qrcode/qrcode.min.js?h=bdddba2f"></script>
 
@@ -800,12 +896,12 @@
 
 <script src="../../assets/features/qr-generator/script.js?h=9d671f31"></script>
 
-              
-                <section class="card how-to-use-section" style="margin-top: 3rem;">
-                  <h2 style="margin-bottom: 1rem;">📖 How to use
-                  </h2>
-                  <div class="markdown-body">
-                    <h1>How to use the QR Code Generator</h1>
+                
+                  <section class="card how-to-use-section" style="margin-top: 3rem;">
+                    <h2 style="margin-bottom: 1rem;">📖 How to use
+                    </h2>
+                    <div class="markdown-body">
+                      <h1>How to use the QR Code Generator</h1>
 <p>A QR code (Quick Response code) is a type of matrix barcode that can be read easily by a digital device.</p>
 <h3>1. Enter Content</h3>
 <p>Type the text or paste the URL you want to encode into the textarea. The QR code will update when you click &quot;Update QR&quot;.</p>
@@ -822,9 +918,9 @@
 <h3>3. Save your QR</h3>
 <p>Click the &quot;Download PNG&quot; button to save the generated image to your device.</p>
 
-                  </div>
-                </section>
-                
+                    </div>
+                  </section>
+                  
           </main>
 
           

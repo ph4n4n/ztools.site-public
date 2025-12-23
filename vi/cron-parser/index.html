@@ -729,7 +729,103 @@
         
 
           <main class="container">
-            <div class="cron-parser-wrapper">
+            
+  <nav class="breadcrumbs-container" aria-label="Breadcrumb">
+    <ol class="breadcrumbs-list">
+      <li class="breadcrumb-item">
+        <a href="../../vi/" class="breadcrumb-link" title="Trang chủ">
+          <i data-lucide="home"></i>
+        </a>
+      </li>
+
+      
+        <li class="breadcrumb-separator">
+          <i data-lucide="chevron-right"></i>
+        </li>
+        <li class="breadcrumb-item">
+          <a href="../../vi/categories/#cat-dev" class="breadcrumb-link">
+            Công cụ Lập trình (Dev)
+          </a>
+        </li>
+        
+
+          <li class="breadcrumb-separator">
+            <i data-lucide="chevron-right"></i>
+          </li>
+          <li class="breadcrumb-item active" aria-current="page">
+            <span class="breadcrumb-current">
+              Giải mã biểu thức Cron
+            </span>
+          </li>
+    </ol>
+  </nav>
+
+  <style>
+    .breadcrumbs-container {
+      padding: 1rem 0;
+      margin-bottom: 1rem;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+
+    .breadcrumbs-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .breadcrumb-item {
+      display: flex;
+      align-items: center;
+    }
+
+    .breadcrumb-link {
+      color: var(--text-muted);
+      text-decoration: none;
+      transition: color 0.2s;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    .breadcrumb-link i {
+      width: 14px;
+      height: 14px;
+    }
+
+    .breadcrumb-link:hover {
+      color: var(--primary-color);
+    }
+
+    .breadcrumb-separator {
+      color: var(--border-color);
+      display: flex;
+      align-items: center;
+    }
+
+    .breadcrumb-separator i {
+      width: 14px;
+      height: 14px;
+    }
+
+    .breadcrumb-current {
+      font-weight: 500;
+      color: var(--text-color);
+    }
+
+    @media (max-width: 600px) {
+      .breadcrumbs-container {
+        padding: 0.75rem 0;
+        font-size: 0.75rem;
+      }
+    }
+  </style>
+  
+              <div class="cron-parser-wrapper">
   <div class="tool-header">
     <h1>
       Giải mã biểu thức Cron
@@ -805,12 +901,12 @@
 <link rel="stylesheet" href="../../assets/features/cron-parser/style.css?h=67f07ee3">
 <script src="../../assets/features/cron-parser/script.js?h=f9f14735"></script>
 
-              
-                <section class="card how-to-use-section" style="margin-top: 3rem;">
-                  <h2 style="margin-bottom: 1rem;">📖 Hướng dẫn sử dụng
-                  </h2>
-                  <div class="markdown-body">
-                    <h3>Cách sử dụng Công cụ Giải mã biểu thức Cron</h3>
+                
+                  <section class="card how-to-use-section" style="margin-top: 3rem;">
+                    <h2 style="margin-bottom: 1rem;">📖 Hướng dẫn sử dụng
+                    </h2>
+                    <div class="markdown-body">
+                      <h3>Cách sử dụng Công cụ Giải mã biểu thức Cron</h3>
 <ol>
 <li><strong>Nhập biểu thức Cron</strong>: Nhập biểu thức cron gồm 5 phần (ví dụ: <code>0 0 * * *</code>) vào ô nhập liệu.</li>
 <li><strong>Đọc kết quả</strong>: Công cụ sẽ lập tức dịch biểu thức đó sang câu văn dễ hiểu (ví dụ: &quot;Vào lúc 00:00 mỗi ngày&quot;).</li>
@@ -819,9 +915,9 @@
 </ol>
 <p>Định dạng hỗ trợ: <code>phút giờ ngày(tháng) tháng ngày(tuần)</code>.</p>
 
-                  </div>
-                </section>
-                
+                    </div>
+                  </section>
+                  
           </main>
 
           

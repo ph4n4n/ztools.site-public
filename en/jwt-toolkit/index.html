@@ -729,7 +729,103 @@
         
 
           <main class="container">
-            <!-- title: JWT Debugger &amp; Decoder - ZTools -->
+            
+  <nav class="breadcrumbs-container" aria-label="Breadcrumb">
+    <ol class="breadcrumbs-list">
+      <li class="breadcrumb-item">
+        <a href="../../en/" class="breadcrumb-link" title="Home">
+          <i data-lucide="home"></i>
+        </a>
+      </li>
+
+      
+        <li class="breadcrumb-separator">
+          <i data-lucide="chevron-right"></i>
+        </li>
+        <li class="breadcrumb-item">
+          <a href="../../en/categories/#cat-dev" class="breadcrumb-link">
+            Dev Tools
+          </a>
+        </li>
+        
+
+          <li class="breadcrumb-separator">
+            <i data-lucide="chevron-right"></i>
+          </li>
+          <li class="breadcrumb-item active" aria-current="page">
+            <span class="breadcrumb-current">
+              JWT Debugger &amp; Decoder
+            </span>
+          </li>
+    </ol>
+  </nav>
+
+  <style>
+    .breadcrumbs-container {
+      padding: 1rem 0;
+      margin-bottom: 1rem;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+
+    .breadcrumbs-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .breadcrumb-item {
+      display: flex;
+      align-items: center;
+    }
+
+    .breadcrumb-link {
+      color: var(--text-muted);
+      text-decoration: none;
+      transition: color 0.2s;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    .breadcrumb-link i {
+      width: 14px;
+      height: 14px;
+    }
+
+    .breadcrumb-link:hover {
+      color: var(--primary-color);
+    }
+
+    .breadcrumb-separator {
+      color: var(--border-color);
+      display: flex;
+      align-items: center;
+    }
+
+    .breadcrumb-separator i {
+      width: 14px;
+      height: 14px;
+    }
+
+    .breadcrumb-current {
+      font-weight: 500;
+      color: var(--text-color);
+    }
+
+    @media (max-width: 600px) {
+      .breadcrumbs-container {
+        padding: 0.75rem 0;
+        font-size: 0.75rem;
+      }
+    }
+  </style>
+  
+              <!-- title: JWT Debugger &amp; Decoder - ZTools -->
 <link rel="stylesheet" href="../../assets/features/jwt-toolkit/style.css?h=36091c7b">
 
 <section class="tool-container">
@@ -782,12 +878,12 @@
 
 <script src="../../assets/features/jwt-toolkit/script.js?h=8ffbb823"></script>
 
-              
-                <section class="card how-to-use-section" style="margin-top: 3rem;">
-                  <h2 style="margin-bottom: 1rem;">📖 How to use
-                  </h2>
-                  <div class="markdown-body">
-                    <h1>How to use the JWT Debugger</h1>
+                
+                  <section class="card how-to-use-section" style="margin-top: 3rem;">
+                    <h2 style="margin-bottom: 1rem;">📖 How to use
+                    </h2>
+                    <div class="markdown-body">
+                      <h1>How to use the JWT Debugger</h1>
 <p>JSON Web Token (JWT) is an open standard that defines a compact and self-contained way for securely transmitting information between parties as a JSON object.</p>
 <h3>1. Paste your Token</h3>
 <p>Find the multi-line textarea on the left and paste your encoded JWT token. It usually looks like a long string of characters separated by two dots (<code>.</code>).</p>
@@ -803,9 +899,9 @@
 <li><strong>Sensitive Data</strong>: Even though it&#39;s local, be cautious when handling tokens containing highly sensitive private information in shared environments.</li>
 </ul>
 
-                  </div>
-                </section>
-                
+                    </div>
+                  </section>
+                  
           </main>
 
           
