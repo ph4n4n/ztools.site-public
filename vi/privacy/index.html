@@ -56,7 +56,7 @@
             <meta name="robots" content="index, follow" />
 
             <!-- Stylesheets -->
-            <link rel="stylesheet" href="../../assets/css/global.css?h=2cad181b">
+            <link rel="stylesheet" href="../../assets/css/global.css?h=537d8b12">
             
                 <link rel="icon" type="image/svg+xml" href="../../assets/images/logo.svg">
                 <link rel="manifest" href="../../manifest.json">
@@ -701,7 +701,9 @@
 <!-- Embed i18n data for client-side JS -->
 <script id="i18n-data" type="application/json">
   {
-    "search_no_results": "Không tìm thấy kết quả cho"
+    "search_no_results": "Không tìm thấy kết quả cho",
+    "feedback_success": "Cảm ơn bạn đã nhắn nhủ! Ý kiến của bạn đã được gửi đến đội ngũ.",
+    "feedback_error": "Có lỗi xảy ra, vui lòng thử lại sau."
   }
 </script>
 
@@ -797,22 +799,89 @@
           </a></li>
       </ul>
     </div>
-    <div class="footer-copyright">
-      <span>
-        © 2025 AZtomiq. Built with ❤️.
-      </span>
-      <span class="footer-powered-by">
-        Powered by <a href="https://github.com/ph4n4n/aztomiq" target="_blank" rel="noopener noreferrer">AZtomiq
-          Core</a> v1.5.1
-      </span>
+    <div class="footer-col feedback-col">
+      <div class="feedback-card">
+        <div class="feedback-header">
+          <div class="feedback-icon-title">
+            <i data-lucide="message-square-heart" class="warm-icon"></i>
+            <h4>
+              Nhắn nhủ ZTools
+            </h4>
+          </div>
+          <p class="feedback-desc">
+            Chúng tôi luôn ở đây để lắng nghe! Bạn có điều gì muốn nhắn nhủ đến đội ngũ ZTools.site?
+          </p>
+        </div>
+
+        <form id="feedback-form" action="https://formspree.io/f/xlgrqrla" method="POST" class="feedback-form">
+          <div class="feedback-row">
+            <div class="feedback-input-group">
+              <input type="text" name="name" placeholder="Tên của bạn (không bắt buộc)" class="feedback-input">
+              <i data-lucide="user" class="input-icon"></i>
+            </div>
+            <div class="feedback-input-group">
+              <input type="email" name="email" placeholder="Email liên hệ (không bắt buộc)" class="feedback-input">
+              <i data-lucide="mail" class="input-icon"></i>
+            </div>
+          </div>
+
+          <div class="feedback-input-group select-wrap">
+            <select name="topic" class="feedback-input feedback-select">
+              <option value="general">
+                Góp ý chung
+              </option>
+              <option value="new_tool">
+                Yêu cầu tool mới
+              </option>
+              <option value="bug">
+                Báo lỗi hệ thống
+              </option>
+              <option value="ui">
+                Góp ý giao diện
+              </option>
+            </select>
+            <i data-lucide="layers" class="input-icon"></i>
+          </div>
+
+          <div class="feedback-input-group">
+            <textarea name="message" placeholder="Nhập nội dung chi tiết..." required
+              class="feedback-input feedback-textarea"></textarea>
+            <i data-lucide="pen-tool" class="input-icon textarea-icon"></i>
+          </div>
+          <button type="submit" class="btn-primary feedback-submit-premium">
+            <span>
+              Gửi lời nhắn đến đội ngũ
+            </span>
+            <i data-lucide="sparkles" style="width: 16px; height: 16px;"></i>
+          </button>
+          <div id="feedback-status" class="feedback-status"></div>
+        </form>
+
+        <p class="feedback-slogan">
+          <i data-lucide="quote" style="width: 12px; height: 12px; opacity: 0.5;"></i>
+          <span>
+            Những góp ý của bạn là động lực của chúng tôi! Xin chân thành cảm ơn!
+          </span>
+        </p>
+      </div>
     </div>
+  </div>
+  <div class="footer-bottom container">
+    <span>
+      © 2025 AZtomiq. Built with ❤️.
+    </span>
+    <span class="footer-powered-by">
+      Powered by <a href="https://github.com/ph4n4n/aztomiq" target="_blank" rel="noopener noreferrer">AZtomiq
+        Core</a> v1.5.1
+    </span>
+  </div>
   </div>
 </footer>
               
 
                 
 
-                    <script src="../../assets/js/global.js?h=f033d3c8"></script>
+                    <script src="../../assets/js/global.js?h=6cc367e4"></script>
                     <script>
                       // Initialize Lucide icons
                       if (window.lucide) {
