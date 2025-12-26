@@ -25,14 +25,14 @@
         <meta name="keywords" content="codepen, jsfiddle, html editor, css editor, javascript editor, playground, code">
         
 
-          <!-- Canonical URL -->
-          <link rel="canonical" href="https://ztools.site/en/web-playground/" />
-
-          <!-- Hreflang Tags for Multi-language -->
+          <!-- Canonical URL (Clean root URLs for default locale) -->
           
-            <link rel="alternate" hreflang="vi" href="https://ztools.site/vi/web-playground/" />
-            <link rel="alternate" hreflang="en" href="https://ztools.site/en/web-playground/" />
-            <link rel="alternate" hreflang="x-default" href="https://ztools.site/vi/web-playground/" />
+            <link rel="canonical" href="https://ztools.site/en/web-playground/" />
+
+            <!-- Hreflang Tags for Multi-language -->
+            <link rel="alternate" hreflang="vi" href="https://ztools.site/web-playground/" />
+            <link rel="alternate" hreflang="en" href="https://ztools.site/web-playground/?lang=en" />
+            <link rel="alternate" hreflang="x-default" href="https://ztools.site/web-playground/?lang=en" />
 
             <!-- Open Graph / Facebook -->
             <meta property="og:type" content="article" />
@@ -41,51 +41,52 @@
             <meta property="og:description" content="Online HTML/CSS/JS editor, runs directly in your browser, server-less sharing." />
             <meta property="og:image" content="https://ztools.site/assets/images/og-default.png" />
             <meta property="og:site_name" content="ZTools" />
-            <meta property="og:locale" content="en_US" />
-            <meta property="og:locale:alternate" content="vi_VN" />
-
-            <!-- Twitter Card -->
-            <meta name="twitter:card" content="summary_large_image" />
-            <meta name="twitter:url" content="https://ztools.site/en/web-playground/" />
-            <meta name="twitter:title" content="ZTools - Free Online Utility Tools" />
-            <meta name="twitter:description" content="Online HTML/CSS/JS editor, runs directly in your browser, server-less sharing." />
-            <meta name="twitter:image" content="https://ztools.site/assets/images/og-default.png" />
-
-            <!-- Author & Copyright -->
-            <meta name="author" content="Anph" />
-            <meta name="robots" content="index, follow" />
-
-            <!-- Stylesheets -->
-            <link rel="stylesheet" href="../../assets/css/global.css?h=537d8b12">
             
-              <link rel="stylesheet" href="../../assets/features/web-playground/style.css?h=e776e07c">
+              <meta property="og:locale" content="en_US" />
+              <meta property="og:locale:alternate" content="vi_VN" />
+
+              <!-- Twitter Card -->
+              <meta name="twitter:card" content="summary_large_image" />
+              <meta name="twitter:url" content="https://ztools.site/en/web-playground/" />
+              <meta name="twitter:title" content="ZTools - Free Online Utility Tools" />
+              <meta name="twitter:description" content="Online HTML/CSS/JS editor, runs directly in your browser, server-less sharing." />
+              <meta name="twitter:image" content="https://ztools.site/assets/images/og-default.png" />
+
+              <!-- Author & Copyright -->
+              <meta name="author" content="Anph" />
+              <meta name="robots" content="index, follow" />
+
+              <!-- Stylesheets -->
+              <link rel="stylesheet" href="../../assets/css/global.css?h=537d8b12">
               
-                <link rel="icon" type="image/svg+xml" href="../../assets/images/logo.svg">
-                <link rel="manifest" href="../../manifest.json">
+                <link rel="stylesheet" href="../../assets/features/web-playground/style.css?h=e776e07c">
+                
+                  <link rel="icon" type="image/svg+xml" href="../../assets/images/logo.svg">
+                  <link rel="manifest" href="../../manifest.json">
 
-                <!-- Lucide Icons Library -->
-                <script src="https://unpkg.com/lucide@latest"></script>
+                  <!-- Lucide Icons Library -->
+                  <script src="https://unpkg.com/lucide@latest"></script>
 
-                <script src="../../assets/js/user-mode.js?h=c17362f9"></script>
+                  <script src="../../assets/js/user-mode.js?h=c17362f9"></script>
 
-                <!-- Dark Mode Script (Blocking) -->
-                <script>
-                  const savedTheme = localStorage.getItem('theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
-                  document.documentElement.setAttribute('data-theme', savedTheme);
-                </script>
+                  <!-- Dark Mode Script (Blocking) -->
+                  <script>
+                    const savedTheme = localStorage.getItem('theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+                    document.documentElement.setAttribute('data-theme', savedTheme);
+                  </script>
 
-                <!-- Vercel Analytics (Commented to fix 404 in non-Vercel environments)
+                  <!-- Vercel Analytics (Commented to fix 404 in non-Vercel environments)
   <script>
     window.va = window.va || function () { (window.va.q = window.va.q || []).push(arguments); };
   </script>
   <script defer src="/_vercel/analytics/script.js"></script>
   -->
 
-                <!-- Vercel Speed Insights -->
-                <script defer src="/_vercel/insights/script.js"></script>
+                  <!-- Vercel Speed Insights -->
+                  <script defer src="/_vercel/insights/script.js"></script>
 
-                <!-- Schema.org Structured Data -->
-                
+                  <!-- Schema.org Structured Data -->
+                  
 
   <script type="application/ld+json">
 [

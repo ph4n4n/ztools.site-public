@@ -25,14 +25,14 @@
         <meta name="keywords" content="free tools, online utility, bộ công cụ online, tính thuế tncn, format json, aztomiq, tiện ích miễn phí">
         
 
-          <!-- Canonical URL -->
-          <link rel="canonical" href="https://ztools.site/en/hash-toolkit/" />
-
-          <!-- Hreflang Tags for Multi-language -->
+          <!-- Canonical URL (Clean root URLs for default locale) -->
           
-            <link rel="alternate" hreflang="vi" href="https://ztools.site/vi/hash-toolkit/" />
-            <link rel="alternate" hreflang="en" href="https://ztools.site/en/hash-toolkit/" />
-            <link rel="alternate" hreflang="x-default" href="https://ztools.site/vi/hash-toolkit/" />
+            <link rel="canonical" href="https://ztools.site/en/hash-toolkit/" />
+
+            <!-- Hreflang Tags for Multi-language -->
+            <link rel="alternate" hreflang="vi" href="https://ztools.site/hash-toolkit/" />
+            <link rel="alternate" hreflang="en" href="https://ztools.site/hash-toolkit/?lang=en" />
+            <link rel="alternate" hreflang="x-default" href="https://ztools.site/hash-toolkit/?lang=en" />
 
             <!-- Open Graph / Facebook -->
             <meta property="og:type" content="article" />
@@ -41,51 +41,52 @@
             <meta property="og:description" content="Quickly encode/decode Base64 and generate cryptographic hashes like MD5 and SHA256." />
             <meta property="og:image" content="https://ztools.site/assets/images/og-default.png" />
             <meta property="og:site_name" content="ZTools" />
-            <meta property="og:locale" content="en_US" />
-            <meta property="og:locale:alternate" content="vi_VN" />
-
-            <!-- Twitter Card -->
-            <meta name="twitter:card" content="summary_large_image" />
-            <meta name="twitter:url" content="https://ztools.site/en/hash-toolkit/" />
-            <meta name="twitter:title" content="ZTools - Free Online Utility Tools" />
-            <meta name="twitter:description" content="Quickly encode/decode Base64 and generate cryptographic hashes like MD5 and SHA256." />
-            <meta name="twitter:image" content="https://ztools.site/assets/images/og-default.png" />
-
-            <!-- Author & Copyright -->
-            <meta name="author" content="Anph" />
-            <meta name="robots" content="index, follow" />
-
-            <!-- Stylesheets -->
-            <link rel="stylesheet" href="../../assets/css/global.css?h=537d8b12">
             
-              <link rel="stylesheet" href="../../assets/features/hash-toolkit/style.css?h=86615e8f">
+              <meta property="og:locale" content="en_US" />
+              <meta property="og:locale:alternate" content="vi_VN" />
+
+              <!-- Twitter Card -->
+              <meta name="twitter:card" content="summary_large_image" />
+              <meta name="twitter:url" content="https://ztools.site/en/hash-toolkit/" />
+              <meta name="twitter:title" content="ZTools - Free Online Utility Tools" />
+              <meta name="twitter:description" content="Quickly encode/decode Base64 and generate cryptographic hashes like MD5 and SHA256." />
+              <meta name="twitter:image" content="https://ztools.site/assets/images/og-default.png" />
+
+              <!-- Author & Copyright -->
+              <meta name="author" content="Anph" />
+              <meta name="robots" content="index, follow" />
+
+              <!-- Stylesheets -->
+              <link rel="stylesheet" href="../../assets/css/global.css?h=537d8b12">
               
-                <link rel="icon" type="image/svg+xml" href="../../assets/images/logo.svg">
-                <link rel="manifest" href="../../manifest.json">
+                <link rel="stylesheet" href="../../assets/features/hash-toolkit/style.css?h=86615e8f">
+                
+                  <link rel="icon" type="image/svg+xml" href="../../assets/images/logo.svg">
+                  <link rel="manifest" href="../../manifest.json">
 
-                <!-- Lucide Icons Library -->
-                <script src="https://unpkg.com/lucide@latest"></script>
+                  <!-- Lucide Icons Library -->
+                  <script src="https://unpkg.com/lucide@latest"></script>
 
-                <script src="../../assets/js/user-mode.js?h=c17362f9"></script>
+                  <script src="../../assets/js/user-mode.js?h=c17362f9"></script>
 
-                <!-- Dark Mode Script (Blocking) -->
-                <script>
-                  const savedTheme = localStorage.getItem('theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
-                  document.documentElement.setAttribute('data-theme', savedTheme);
-                </script>
+                  <!-- Dark Mode Script (Blocking) -->
+                  <script>
+                    const savedTheme = localStorage.getItem('theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+                    document.documentElement.setAttribute('data-theme', savedTheme);
+                  </script>
 
-                <!-- Vercel Analytics (Commented to fix 404 in non-Vercel environments)
+                  <!-- Vercel Analytics (Commented to fix 404 in non-Vercel environments)
   <script>
     window.va = window.va || function () { (window.va.q = window.va.q || []).push(arguments); };
   </script>
   <script defer src="/_vercel/analytics/script.js"></script>
   -->
 
-                <!-- Vercel Speed Insights -->
-                <script defer src="/_vercel/insights/script.js"></script>
+                  <!-- Vercel Speed Insights -->
+                  <script defer src="/_vercel/insights/script.js"></script>
 
-                <!-- Schema.org Structured Data -->
-                
+                  <!-- Schema.org Structured Data -->
+                  
 
   <script type="application/ld+json">
 [
@@ -677,30 +678,31 @@
         <i data-lucide="search"></i>
       </button>
 
-      <a href="../../vi/hash-toolkit/" class="lang-switch"
-        title="Switch Language" aria-label="Switch to Vietnamese">
-        <span aria-hidden="true">
-          🇻🇳
-        </span>
-      </a>
-      <button id="mode-toggle" class="mode-toggle-btn" title="Advanced Mode (Comprehensive, Master Tools)"
-        aria-label="Toggle User Mode">
-        <span class="mode-text">
-          Standard
-        </span>
-        <div class="mode-switch">
-          <div class="mode-slider">
-            <span class="mode-icon"><i data-lucide="zap" style="width: 12px; height: 12px;"></i></span>
+      
+        <a href="./" class="lang-switch" title="Switch Language"
+          aria-label="Switch to Vietnamese">
+          <span aria-hidden="true">
+            🇻🇳
+          </span>
+        </a>
+        <button id="mode-toggle" class="mode-toggle-btn" title="Advanced Mode (Comprehensive, Master Tools)"
+          aria-label="Toggle User Mode">
+          <span class="mode-text">
+            Standard
+          </span>
+          <div class="mode-switch">
+            <div class="mode-slider">
+              <span class="mode-icon"><i data-lucide="zap" style="width: 12px; height: 12px;"></i></span>
+            </div>
           </div>
-        </div>
-        <span class="mode-text">
-          Advanced
-        </span>
-      </button>
+          <span class="mode-text">
+            Advanced
+          </span>
+        </button>
 
-      <button id="theme-toggle" class="btn-icon" aria-label="Toggle Dark Mode">
-        <i data-lucide="moon"></i>
-      </button>
+        <button id="theme-toggle" class="btn-icon" aria-label="Toggle Dark Mode">
+          <i data-lucide="moon"></i>
+        </button>
     </div>
   </div>
 
