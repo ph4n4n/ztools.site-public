@@ -56,8 +56,26 @@
               <meta name="author" content="Anph" />
               <meta name="robots" content="index, follow" />
 
+              <!-- Fonts -->
+              <link rel="preconnect" href="https://fonts.googleapis.com">
+              <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+              <link
+                href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600&family=Outfit:wght@400;500;600;700;800;900&family=Be+Vietnam+Pro:wght@400;500;600;700;800;900&display=swap"
+                rel="stylesheet">
+
+              <!-- Prism.js for Code Highlighting -->
+              <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css"
+                rel="stylesheet" />
+              <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" defer></script>
+              <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-javascript.min.js"
+                defer></script>
+              <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-css.min.js"
+                defer></script>
+              <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-markup.min.js"
+                defer></script>
+
               <!-- Stylesheets -->
-              <link rel="stylesheet" href="../assets/css/global.css?h=537d8b12">
+              <link rel="stylesheet" href="../assets/css/global.css?h=1f357b88&amp;v=1.5.2">
               
                 <link rel="stylesheet" href="../assets/features/web-playground/style.css?h=e776e07c">
                 
@@ -67,7 +85,8 @@
                   <!-- Lucide Icons Library -->
                   <script src="https://unpkg.com/lucide@latest"></script>
 
-                  <script src="../assets/js/user-mode.js?h=c17362f9"></script>
+                  <script src="../assets/js/user-mode.js?h=c17362f9&amp;v=1.5.2"></script>
+                  <script src="../assets/js/persona.js?h=63d924dd&amp;v=1.5.2"></script>
 
                   <!-- Dark Mode Script (Blocking) -->
                   <script>
@@ -156,7 +175,8 @@
   <nav class="breadcrumbs-container" aria-label="Breadcrumb">
     <ol class="breadcrumbs-list">
       <li class="breadcrumb-item">
-        <a href="../vi/" class="breadcrumb-link" title="Trang chủ">
+        <a href="../" class="breadcrumb-link"
+          title="Trang chủ">
           <i data-lucide="home"></i>
         </a>
       </li>
@@ -166,7 +186,8 @@
           <i data-lucide="chevron-right"></i>
         </li>
         <li class="breadcrumb-item">
-          <a href="../vi/categories/#cat-dev" class="breadcrumb-link">
+          <a href="../categories/#cat-dev"
+            class="breadcrumb-link">
             Công cụ Lập trình (Dev)
           </a>
         </li>
@@ -264,33 +285,41 @@
         <div class="dropdown-menu mega-menu">
   <div class="mega-sidebar">
     <div class="mega-sidebar-header">
-      <a href="../vi/" class="sidebar-logo logo-link">
+      <a href="../" class="sidebar-logo logo-link">
         <img src="../assets/images/logo.svg" alt="ZTools Logo" class="logo-icon" width="28" height="28">
         <span class="logo-text">ZTools</span>
       </a>
     </div>
     <div class="mega-sidebar-links">
-      <a href="../vi/categories/"
+      <a href="../categories/"
         class="mega-side-link ">
         <span class="icon-wrap"><i data-lucide="folder-kanban"></i></span>
         <span class="link-text">
           Danh mục
         </span>
       </a>
-      <a href="../vi/blog/" class="mega-side-link ">
+      <a href="../blog/"
+        class="mega-side-link ">
         <span class="icon-wrap"><i data-lucide="pen-tool"></i></span>
         <span class="link-text">
           Dev ký sự
         </span>
       </a>
-      <a href="../vi/bookmark-creator/"
+      <a href="../roadmap/"
+        class="mega-side-link ">
+        <span class="icon-wrap"><i data-lucide="map"></i></span>
+        <span class="link-text">
+          Lộ trình (Skill Tree)
+        </span>
+      </a>
+      <a href="../bookmark-creator/"
         class="mega-side-link ">
         <span class="icon-wrap"><i data-lucide="star"></i></span>
         <span class="link-text">
           Bookmark Creator
         </span>
       </a>
-      <a href="../vi/changelog/"
+      <a href="../changelog/"
         class="mega-side-link ">
         <span class="icon-wrap"><i data-lucide="history"></i></span>
         <span class="link-text">Changelogs</span>
@@ -311,7 +340,7 @@
             </div>
             <div class="mega-cat-links">
               
-                <a href="../vi/business-tax/"
+                <a href="../business-tax/"
                   class="mega-tool-link mode-standard-only ">
                   <span class="tool-dot"></span>
                   <span class="tool-label">
@@ -323,7 +352,7 @@
                     
                 </a>
                 
-                <a href="../vi/freelancer-tax/"
+                <a href="../freelancer-tax/"
                   class="mega-tool-link mode-standard-only ">
                   <span class="tool-dot"></span>
                   <span class="tool-label">
@@ -335,7 +364,7 @@
                     
                 </a>
                 
-                <a href="../vi/ot-calculator/"
+                <a href="../ot-calculator/"
                   class="mega-tool-link mode-standard-only ">
                   <span class="tool-dot"></span>
                   <span class="tool-label">
@@ -347,7 +376,7 @@
                     
                 </a>
                 
-                <a href="../vi/salary-tax-master/"
+                <a href="../salary-tax-master/"
                   class="mega-tool-link mode-advanced-only ">
                   <span class="tool-dot"></span>
                   <span class="tool-label">
@@ -356,7 +385,7 @@
                   
                 </a>
                 
-                <a href="../vi/social-insurance/"
+                <a href="../social-insurance/"
                   class="mega-tool-link mode-standard-only ">
                   <span class="tool-dot"></span>
                   <span class="tool-label">
@@ -368,7 +397,7 @@
                     
                 </a>
                 
-                <a href="../vi/tax/"
+                <a href="../tax/"
                   class="mega-tool-link mode-standard-only ">
                   <span class="tool-dot"></span>
                   <span class="tool-label">
@@ -394,7 +423,7 @@
             </div>
             <div class="mega-cat-links">
               
-                <a href="../vi/compound-interest/"
+                <a href="../compound-interest/"
                   class="mega-tool-link  ">
                   <span class="tool-dot"></span>
                   <span class="tool-label">
@@ -406,7 +435,7 @@
                     
                 </a>
                 
-                <a href="../vi/inflation-calculator/"
+                <a href="../inflation-calculator/"
                   class="mega-tool-link  ">
                   <span class="tool-dot"></span>
                   <span class="tool-label">
@@ -418,7 +447,7 @@
                     
                 </a>
                 
-                <a href="../vi/investment-calc/"
+                <a href="../investment-calc/"
                   class="mega-tool-link  ">
                   <span class="tool-dot"></span>
                   <span class="tool-label">
@@ -430,7 +459,7 @@
                     
                 </a>
                 
-                <a href="../vi/loan-calculator/"
+                <a href="../loan-calculator/"
                   class="mega-tool-link  ">
                   <span class="tool-dot"></span>
                   <span class="tool-label">
@@ -439,7 +468,7 @@
                   
                 </a>
                 
-                <a href="../vi/percentage-calculator/"
+                <a href="../percentage-calculator/"
                   class="mega-tool-link  ">
                   <span class="tool-dot"></span>
                   <span class="tool-label">
@@ -448,7 +477,7 @@
                   
                 </a>
                 
-                <a href="../vi/savings-interest/"
+                <a href="../savings-interest/"
                   class="mega-tool-link  ">
                   <span class="tool-dot"></span>
                   <span class="tool-label">
@@ -472,7 +501,7 @@
             </div>
             <div class="mega-cat-links">
               
-                <a href="../vi/lorem-ipsum/"
+                <a href="../lorem-ipsum/"
                   class="mega-tool-link  ">
                   <span class="tool-dot"></span>
                   <span class="tool-label">
@@ -484,7 +513,7 @@
                     
                 </a>
                 
-                <a href="../vi/text-diff/"
+                <a href="../text-diff/"
                   class="mega-tool-link mode-advanced-only ">
                   <span class="tool-dot"></span>
                   <span class="tool-label">
@@ -493,7 +522,7 @@
                   
                 </a>
                 
-                <a href="../vi/text-formatter/"
+                <a href="../text-formatter/"
                   class="mega-tool-link  ">
                   <span class="tool-dot"></span>
                   <span class="tool-label">
@@ -502,7 +531,7 @@
                   
                 </a>
                 
-                <a href="../vi/word-counter/"
+                <a href="../word-counter/"
                   class="mega-tool-link  ">
                   <span class="tool-dot"></span>
                   <span class="tool-label">
@@ -523,7 +552,7 @@
             </div>
             <div class="mega-cat-links">
               
-                <a href="../vi/password-generator/"
+                <a href="../password-generator/"
                   class="mega-tool-link  ">
                   <span class="tool-dot"></span>
                   <span class="tool-label">
@@ -532,7 +561,7 @@
                   
                 </a>
                 
-                <a href="../vi/uuid-generator/"
+                <a href="../uuid-generator/"
                   class="mega-tool-link  ">
                   <span class="tool-dot"></span>
                   <span class="tool-label">
@@ -553,7 +582,7 @@
             </div>
             <div class="mega-cat-links">
               
-                <a href="../vi/bmi/"
+                <a href="../bmi/"
                   class="mega-tool-link  ">
                   <span class="tool-dot"></span>
                   <span class="tool-label">
@@ -562,7 +591,7 @@
                   
                 </a>
                 
-                <a href="../vi/bookmark-creator/"
+                <a href="../bookmark-creator/"
                   class="mega-tool-link  ">
                   <span class="tool-dot"></span>
                   <span class="tool-label">
@@ -571,7 +600,7 @@
                   
                 </a>
                 
-                <a href="../vi/date-time-master/"
+                <a href="../date-time-master/"
                   class="mega-tool-link mode-advanced-only ">
                   <span class="tool-dot"></span>
                   <span class="tool-label">
@@ -583,7 +612,7 @@
                     
                 </a>
                 
-                <a href="../vi/date-toolkit/"
+                <a href="../date-toolkit/"
                   class="mega-tool-link mode-standard-only ">
                   <span class="tool-dot"></span>
                   <span class="tool-label">
@@ -595,7 +624,7 @@
                     
                 </a>
                 
-                <a href="../vi/lunar-calendar/"
+                <a href="../lunar-calendar/"
                   class="mega-tool-link  ">
                   <span class="tool-dot"></span>
                   <span class="tool-label">
@@ -607,7 +636,7 @@
                     
                 </a>
                 
-                <a href="../vi/random-toolkit/"
+                <a href="../random-toolkit/"
                   class="mega-tool-link  ">
                   <span class="tool-dot"></span>
                   <span class="tool-label">
@@ -619,7 +648,7 @@
                     
                 </a>
                 
-                <a href="../vi/unit-converter/"
+                <a href="../unit-converter/"
                   class="mega-tool-link  ">
                   <span class="tool-dot"></span>
                   <span class="tool-label">
@@ -640,7 +669,7 @@
             </div>
             <div class="mega-cat-links">
               
-                <a href="../vi/cron-parser/"
+                <a href="../cron-parser/"
                   class="mega-tool-link mode-advanced-only ">
                   <span class="tool-dot"></span>
                   <span class="tool-label">
@@ -649,7 +678,7 @@
                   
                 </a>
                 
-                <a href="../vi/dev-toolkit/"
+                <a href="../dev-toolkit/"
                   class="mega-tool-link mode-advanced-only ">
                   <span class="tool-dot"></span>
                   <span class="tool-label">
@@ -658,7 +687,7 @@
                   
                 </a>
                 
-                <a href="../vi/hash-toolkit/"
+                <a href="../hash-toolkit/"
                   class="mega-tool-link  ">
                   <span class="tool-dot"></span>
                   <span class="tool-label">
@@ -670,7 +699,7 @@
                     
                 </a>
                 
-                <a href="../vi/json-toolkit/"
+                <a href="../json-toolkit/"
                   class="mega-tool-link mode-advanced-only ">
                   <span class="tool-dot"></span>
                   <span class="tool-label">
@@ -684,7 +713,7 @@
                       
                 </a>
                 
-                <a href="../vi/jwt-toolkit/"
+                <a href="../jwt-toolkit/"
                   class="mega-tool-link mode-advanced-only ">
                   <span class="tool-dot"></span>
                   <span class="tool-label">
@@ -693,7 +722,7 @@
                   
                 </a>
                 
-                <a href="../vi/qr-generator/"
+                <a href="../qr-generator/"
                   class="mega-tool-link  ">
                   <span class="tool-dot"></span>
                   <span class="tool-label">
@@ -705,7 +734,7 @@
                     
                 </a>
                 
-                <a href="../vi/timestamp-converter/"
+                <a href="../timestamp-converter/"
                   class="mega-tool-link mode-standard-only ">
                   <span class="tool-dot"></span>
                   <span class="tool-label">
@@ -717,7 +746,7 @@
                     
                 </a>
                 
-                <a href="../vi/url-toolkit/"
+                <a href="../url-toolkit/"
                   class="mega-tool-link  ">
                   <span class="tool-dot"></span>
                   <span class="tool-label">
@@ -729,7 +758,7 @@
                     
                 </a>
                 
-                <a href="../vi/web-playground/"
+                <a href="../web-playground/"
                   class="mega-tool-link mode-advanced-only active">
                   <span class="tool-dot"></span>
                   <span class="tool-label">
@@ -968,8 +997,8 @@
 <!-- LZ-String for URL Compression -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lz-string/1.5.0/lz-string.min.js"></script>
 <!-- External Examples Data -->
-<script src="../assets/features/web-playground/examples.js?h=042119e9"></script>
-<script src="../assets/features/web-playground/script.js?h=042119e9"></script>
+<script src="../assets/features/web-playground/examples.js?h=2da66355"></script>
+<script src="../assets/features/web-playground/script.js?h=2da66355"></script>
 
                 
           </main>
@@ -978,7 +1007,7 @@
 
                 
 
-                    <script src="../assets/js/global.js?h=6cc367e4"></script>
+                    <script src="../assets/js/global.js?h=f98540f9&amp;v=1.5.2"></script>
                     <script>
                       // Initialize Lucide icons
                       if (window.lucide) {
@@ -1017,14 +1046,17 @@
   {
     "search_no_results": "Không tìm thấy kết quả cho",
     "feedback_success": "Cảm ơn bạn đã nhắn nhủ! Ý kiến của bạn đã được gửi đến đội ngũ.",
-    "feedback_error": "Có lỗi xảy ra, vui lòng thử lại sau."
+    "feedback_error": "Có lỗi xảy ra, vui lòng thử lại sau.",
+    "msg_starred": "Đã thêm vào yêu thích",
+    "msg_unstarred": "Đã xóa khỏi yêu thích",
+    "msg_history_cleared": "Đã xóa lịch sử"
   }
 </script>
 
 <!-- Embed tools data for client-side search -->
 <script id="tools-data" type="application/json">
   
-  [{"id":"blog","link":"../vi/blog/","icon":"pen-tool","title":"Chuyện Nghề Dev","desc":"Hậu trường, kỹ thuật và những dòng tâm sự của đội ngũ phát triển.","category":"home.cats.legacy.title"},{"id":"bmi","link":"../vi/bmi/","icon":"scale","title":"Tính chỉ số BMI","desc":"Công cụ tính chỉ số khối cơ thể (BMI) chuẩn xác, giúp đánh giá tình trạng cân nặng theo tiêu chuẩn quốc tế và IDI & WPRO cho người Việt.","category":"Tiện ích đời sống"},{"id":"bookmark-creator","link":"../vi/bookmark-creator/","icon":"bookmark","title":"Bookmark Creator","desc":"Tạo bộ bookmark cá nhân cho trình duyệt của bạn với các công cụ yêu thích trên ZTools.","category":"Tiện ích đời sống"},{"id":"business-tax","link":"../vi/business-tax/","icon":"briefcase","title":"Tính thuế TNDN","desc":"Công cụ tính toán thuế thu nhập doanh nghiệp (TNDN) chính xác và nhanh chóng. Hỗ trợ cả phương pháp trực tiếp và gián tiếp.","category":"Việc làm & Lương thưởng"},{"id":"compound-interest","link":"../vi/compound-interest/","icon":"trending-up","title":"Tính Lãi Kép","desc":"Công cụ tính lãi suất kép online chính xác nhất. Tính toán giá trị tương lai của khoản đầu tư với lãi suất gộp hàng tháng/năm.","category":"Tài chính & Ngân hàng"},{"id":"cron-parser","link":"../vi/cron-parser/","icon":"terminal","title":"Giải mã biểu thức Cron","desc":"Giải mã biểu thức Cron sang ngôn ngữ tự nhiên.","category":"Công cụ Lập trình (Dev)"},{"id":"date-time-master","link":"../vi/date-time-master/","icon":"calendar-clock","title":"Bộ Công Cụ Ngày Giờ Master","desc":"Bộ công cụ toàn diện: Tính khoảng cách, cộng trừ ngày và chuyển đổi Unix Timestamp.","category":"Tiện ích đời sống"},{"id":"date-toolkit","link":"../vi/date-toolkit/","icon":"calendar-days","title":"Công cụ Ngày tháng","desc":"Tính khoảng cách ngày, cộng trừ thời gian và đếm ngược.","category":"Tiện ích đời sống"},{"id":"dev-toolkit","link":"../vi/dev-toolkit/","icon":"code","title":"Bộ Công Cụ Lập Trình","desc":"Bộ công cụ lập trình toàn diện cho developers","category":"Công cụ Lập trình (Dev)"},{"id":"freelancer-tax","link":"../vi/freelancer-tax/","icon":"receipt","title":"Thuế Freelancer & Hộ kinh doanh","desc":"Tính thuế vĩnh lai (10%) hoặc thuế khoán cho hộ kinh doanh cá thể.","category":"Việc làm & Lương thưởng"},{"id":"glassmorphism-generator","link":"../vi/glassmorphism-generator/","icon":"sparkles","title":"Trình Tạo Glassmorphism","desc":"Tạo hiệu ứng kính mờ đẹp mắt cho giao diện web với xem trước trực tiếp","category":"home.cats.dev-tools.title"},{"id":"hash-toolkit","link":"../vi/hash-toolkit/","icon":"lock","title":"Công cụ Base64 & Hash","desc":"Mã hóa/Giải mã Base64 và tạo các mã băm mật mã như MD5, SHA256 nhanh chóng.","category":"Công cụ Lập trình (Dev)"},{"id":"inflation-calculator","link":"../vi/inflation-calculator/","icon":"line-chart","title":"Tính lạm phát (Việt Nam)","desc":"Tính toán trượt giá tiền tệ và sức mua của đồng tiền qua các năm.","category":"Tài chính & Ngân hàng"},{"id":"investment-calc","link":"../vi/investment-calc/","icon":"piggy-bank","title":"Tính hiệu quả đầu tư (ROI)","desc":"Tính toán lợi nhuận (ROI) và tỷ suất sinh lời hàng năm (CAGR).","category":"Tài chính & Ngân hàng"},{"id":"json-toolkit","link":"../vi/json-toolkit/","icon":"braces","title":"Bộ công cụ JSON","desc":"Format, validate, và convert JSON. Bao gồm Tree view và công cụ xử lý dữ liệu.","category":"Công cụ Lập trình (Dev)"},{"id":"jwt-toolkit","link":"../vi/jwt-toolkit/","icon":"key","title":"Phân tích & Giải mã JWT","desc":"Giải mã và kiểm tra cấu trúc JSON Web Token (JWT) an toàn ngay trên trình duyệt.","category":"Công cụ Lập trình (Dev)"},{"id":"loan-calculator","link":"../vi/loan-calculator/","icon":"home","title":"Tính lãi vay","desc":"Công cụ tính lịch trả nợ vay ngân hàng chi tiết. Hỗ trợ tính theo dư nợ giảm dần hoặc dư nợ gốc ban đầu.","category":"Tài chính & Ngân hàng"},{"id":"lorem-ipsum","link":"../vi/lorem-ipsum/","icon":"pilcrow","title":"Tạo chữ mẫu Lorem Ipsum","desc":"Tạo văn bản giả Lorem Ipsum cho thiết kế và dàn trang.","category":"Công cụ Văn bản"},{"id":"lunar-calendar","link":"../vi/lunar-calendar/","icon":"moon","title":"Xem Âm Lịch","desc":"Chuyển đổi Dương lịch sang Âm lịch, xem Can Chi, Giờ Hoàng Đạo","category":"Tiện ích đời sống"},{"id":"ot-calculator","link":"../vi/ot-calculator/","icon":"clock","title":"Tính lương tăng ca (OT)","desc":"Tính chính xác tiền lương làm thêm giờ theo Luật Lao động mới nhất","category":"Việc làm & Lương thưởng"},{"id":"password-generator","link":"../vi/password-generator/","icon":"key-round","title":"Tạo Mật Khẩu Mạnh","desc":"Tạo mật khẩu ngẫu nhiên, an toàn và bảo mật cao.","category":"Generators (Tạo mã)"},{"id":"percentage-calculator","link":"../vi/percentage-calculator/","icon":"percent","title":"Tính Phần Trăm (%)","desc":"Công cụ tính phần trăm online tiện lợi. Tính % của số, tính giá trị sau khi tăng/giảm %, tính tỷ lệ % giữa 2 số.","category":"Tài chính & Ngân hàng"},{"id":"qr-generator","link":"../vi/qr-generator/","icon":"qr-code","title":"Tạo mã QR Code","desc":"Tạo mã QR cho liên kết, văn bản và nhiều hơn thế. Hoạt động offline đảm bảo quyền riêng tư.","category":"Công cụ Lập trình (Dev)"},{"id":"random-toolkit","link":"../vi/random-toolkit/","icon":"dices","title":"Bộ công cụ Ngẫu nhiên","desc":"Tạo số ngẫu nhiên, tung xúc xắc và chọn ngẫu nhiên từ danh sách.","category":"Tiện ích đời sống"},{"id":"salary-tax-master","link":"../vi/salary-tax-master/","icon":"wallet","title":"Bộ Công Cụ Thuế & Lương Master","desc":"Bộ công cụ đầy đủ về Lương và Thuế: TNCN, TNDN, Freelancer, Bảo hiểm xã hội và Tính lương OT.","category":"Việc làm & Lương thưởng"},{"id":"savings-interest","link":"../vi/savings-interest/","icon":"coins","title":"Tính Lãi Suất Tiết Kiệm","desc":"Công cụ tính lãi gửi tiết kiệm ngân hàng nhanh chóng. Hỗ trợ tính lãi cuối kỳ, lãi hàng tháng cho các kỳ hạn gửi khác nhau.","category":"Tài chính & Ngân hàng"},{"id":"social-insurance","link":"../vi/social-insurance/","icon":"shield-plus","title":"Tính BHXH & Hưu trí","desc":"Tính BHXH bắt buộc vs Tự nguyện.","category":"Việc làm & Lương thưởng"},{"id":"tax","link":"../vi/tax/","icon":"banknote","title":"Tính thuế TNCN","desc":"Tính thuế thu nhập cá nhân 2024 mới nhất, hỗ trợ lương Net/Gross.","category":"Việc làm & Lương thưởng"},{"id":"text-diff","link":"../vi/text-diff/","icon":"file-diff","title":"So Sánh Văn Bản","desc":"So sánh sự khác biệt giữa hai đoạn văn bản, làm nổi bật các phần thêm, xóa, sửa.","category":"Công cụ Văn bản"},{"id":"text-formatter","link":"../vi/text-formatter/","icon":"wand-2","title":"Định Dạng Văn Bản - Xóa Style","desc":"Loại bỏ định dạng và làm sạch văn bản khi copy từ web.","category":"Công cụ Văn bản"},{"id":"timestamp-converter","link":"../vi/timestamp-converter/","icon":"clock","title":"Chuyển đổi Timestamp","desc":"Chuyển đổi thời gian giữa định dạng Unix Timestamp và ngày tháng thực tế.","category":"Công cụ Lập trình (Dev)"},{"id":"unit-converter","link":"../vi/unit-converter/","icon":"ruler","title":"Quy đổi đơn vị","desc":"Công cụ quy đổi chiều dài, khối lượng, thể tích, diện tích và nhiều đơn vị khác.","category":"Tiện ích đời sống"},{"id":"url-toolkit","link":"../vi/url-toolkit/","icon":"link","title":"URL & Base64 Toolkit","desc":"Mã hóa/Giải mã URL, Base64 và phân tích cấu trúc URL nhanh chóng.","category":"Công cụ Lập trình (Dev)"},{"id":"uuid-generator","link":"../vi/uuid-generator/","icon":"fingerprint","title":"UUID Generator","desc":"Tạo UUID/GUID ngẫu nhiên (V1, V4, V7) nhanh chóng.","category":"Generators (Tạo mã)"},{"id":"web-playground","link":"../vi/web-playground/","icon":"code-2","title":"zTool Playground","desc":"Trình soạn thảo HTML/CSS/JS online, chạy ngay trên trình duyệt, không cần server.","category":"Công cụ Lập trình (Dev)"},{"id":"word-counter","link":"../vi/word-counter/","icon":"bar-chart-3","title":"Đếm từ & Phân tích văn bản","desc":"Đếm từ, phân tích tần suất và chuyển đổi chữ hoa/thường (Case Converter).","category":"Công cụ Văn bản"}]
+  [{"id":"blog","link":"../blog/","icon":"pen-tool","title":"Chuyện Nghề Dev","desc":"Hậu trường, kỹ thuật và những dòng tâm sự của đội ngũ phát triển.","category":"home.cats.legacy.title"},{"id":"bmi","link":"../bmi/","icon":"scale","title":"Tính chỉ số BMI","desc":"Công cụ tính chỉ số khối cơ thể (BMI) chuẩn xác, giúp đánh giá tình trạng cân nặng theo tiêu chuẩn quốc tế và IDI & WPRO cho người Việt.","category":"Tiện ích đời sống"},{"id":"bookmark-creator","link":"../bookmark-creator/","icon":"bookmark","title":"Bookmark Creator","desc":"Tạo bộ bookmark cá nhân cho trình duyệt của bạn với các công cụ yêu thích trên ZTools.","category":"Tiện ích đời sống"},{"id":"business-tax","link":"../business-tax/","icon":"briefcase","title":"Tính thuế TNDN","desc":"Công cụ tính toán thuế thu nhập doanh nghiệp (TNDN) chính xác và nhanh chóng. Hỗ trợ cả phương pháp trực tiếp và gián tiếp.","category":"Việc làm & Lương thưởng"},{"id":"compound-interest","link":"../compound-interest/","icon":"trending-up","title":"Tính Lãi Kép","desc":"Công cụ tính lãi suất kép online chính xác nhất. Tính toán giá trị tương lai của khoản đầu tư với lãi suất gộp hàng tháng/năm.","category":"Tài chính & Ngân hàng"},{"id":"cron-parser","link":"../cron-parser/","icon":"terminal","title":"Giải mã biểu thức Cron","desc":"Giải mã biểu thức Cron sang ngôn ngữ tự nhiên.","category":"Công cụ Lập trình (Dev)"},{"id":"date-time-master","link":"../date-time-master/","icon":"calendar-clock","title":"Bộ Công Cụ Ngày Giờ Master","desc":"Bộ công cụ toàn diện: Tính khoảng cách, cộng trừ ngày và chuyển đổi Unix Timestamp.","category":"Tiện ích đời sống"},{"id":"date-toolkit","link":"../date-toolkit/","icon":"calendar-days","title":"Công cụ Ngày tháng","desc":"Tính khoảng cách ngày, cộng trừ thời gian và đếm ngược.","category":"Tiện ích đời sống"},{"id":"dev-toolkit","link":"../dev-toolkit/","icon":"code","title":"Bộ Công Cụ Lập Trình","desc":"Bộ công cụ lập trình toàn diện cho developers","category":"Công cụ Lập trình (Dev)"},{"id":"freelancer-tax","link":"../freelancer-tax/","icon":"receipt","title":"Thuế Freelancer & Hộ kinh doanh","desc":"Tính thuế vĩnh lai (10%) hoặc thuế khoán cho hộ kinh doanh cá thể.","category":"Việc làm & Lương thưởng"},{"id":"glassmorphism-generator","link":"../glassmorphism-generator/","icon":"sparkles","title":"Trình Tạo Glassmorphism","desc":"Tạo hiệu ứng kính mờ đẹp mắt cho giao diện web với xem trước trực tiếp","category":"home.cats.dev-tools.title"},{"id":"hash-toolkit","link":"../hash-toolkit/","icon":"lock","title":"Công cụ Base64 & Hash","desc":"Mã hóa/Giải mã Base64 và tạo các mã băm mật mã như MD5, SHA256 nhanh chóng.","category":"Công cụ Lập trình (Dev)"},{"id":"inflation-calculator","link":"../inflation-calculator/","icon":"line-chart","title":"Tính lạm phát (Việt Nam)","desc":"Tính toán trượt giá tiền tệ và sức mua của đồng tiền qua các năm.","category":"Tài chính & Ngân hàng"},{"id":"investment-calc","link":"../investment-calc/","icon":"piggy-bank","title":"Tính hiệu quả đầu tư (ROI)","desc":"Tính toán lợi nhuận (ROI) và tỷ suất sinh lời hàng năm (CAGR).","category":"Tài chính & Ngân hàng"},{"id":"json-toolkit","link":"../json-toolkit/","icon":"braces","title":"Bộ công cụ JSON","desc":"Format, validate, và convert JSON. Bao gồm Tree view và công cụ xử lý dữ liệu.","category":"Công cụ Lập trình (Dev)"},{"id":"jwt-toolkit","link":"../jwt-toolkit/","icon":"key","title":"Phân tích & Giải mã JWT","desc":"Giải mã và kiểm tra cấu trúc JSON Web Token (JWT) an toàn ngay trên trình duyệt.","category":"Công cụ Lập trình (Dev)"},{"id":"loan-calculator","link":"../loan-calculator/","icon":"home","title":"Tính lãi vay","desc":"Công cụ tính lịch trả nợ vay ngân hàng chi tiết. Hỗ trợ tính theo dư nợ giảm dần hoặc dư nợ gốc ban đầu.","category":"Tài chính & Ngân hàng"},{"id":"lorem-ipsum","link":"../lorem-ipsum/","icon":"pilcrow","title":"Tạo chữ mẫu Lorem Ipsum","desc":"Tạo văn bản giả Lorem Ipsum cho thiết kế và dàn trang.","category":"Công cụ Văn bản"},{"id":"lunar-calendar","link":"../lunar-calendar/","icon":"moon","title":"Xem Âm Lịch","desc":"Chuyển đổi Dương lịch sang Âm lịch, xem Can Chi, Giờ Hoàng Đạo","category":"Tiện ích đời sống"},{"id":"ot-calculator","link":"../ot-calculator/","icon":"clock","title":"Tính lương tăng ca (OT)","desc":"Tính chính xác tiền lương làm thêm giờ theo Luật Lao động mới nhất","category":"Việc làm & Lương thưởng"},{"id":"password-generator","link":"../password-generator/","icon":"key-round","title":"Tạo Mật Khẩu Mạnh","desc":"Tạo mật khẩu ngẫu nhiên, an toàn và bảo mật cao.","category":"Generators (Tạo mã)"},{"id":"percentage-calculator","link":"../percentage-calculator/","icon":"percent","title":"Tính Phần Trăm (%)","desc":"Công cụ tính phần trăm online tiện lợi. Tính % của số, tính giá trị sau khi tăng/giảm %, tính tỷ lệ % giữa 2 số.","category":"Tài chính & Ngân hàng"},{"id":"qr-generator","link":"../qr-generator/","icon":"qr-code","title":"Tạo mã QR Code","desc":"Tạo mã QR cho liên kết, văn bản và nhiều hơn thế. Hoạt động offline đảm bảo quyền riêng tư.","category":"Công cụ Lập trình (Dev)"},{"id":"random-toolkit","link":"../random-toolkit/","icon":"dices","title":"Bộ công cụ Ngẫu nhiên","desc":"Tạo số ngẫu nhiên, tung xúc xắc và chọn ngẫu nhiên từ danh sách.","category":"Tiện ích đời sống"},{"id":"salary-tax-master","link":"../salary-tax-master/","icon":"wallet","title":"Bộ Công Cụ Thuế & Lương Master","desc":"Bộ công cụ đầy đủ về Lương và Thuế: TNCN, TNDN, Freelancer, Bảo hiểm xã hội và Tính lương OT.","category":"Việc làm & Lương thưởng"},{"id":"savings-interest","link":"../savings-interest/","icon":"coins","title":"Tính Lãi Suất Tiết Kiệm","desc":"Công cụ tính lãi gửi tiết kiệm ngân hàng nhanh chóng. Hỗ trợ tính lãi cuối kỳ, lãi hàng tháng cho các kỳ hạn gửi khác nhau.","category":"Tài chính & Ngân hàng"},{"id":"social-insurance","link":"../social-insurance/","icon":"shield-plus","title":"Tính BHXH & Hưu trí","desc":"Tính BHXH bắt buộc vs Tự nguyện.","category":"Việc làm & Lương thưởng"},{"id":"tax","link":"../tax/","icon":"banknote","title":"Tính thuế TNCN","desc":"Tính thuế thu nhập cá nhân 2024 mới nhất, hỗ trợ lương Net/Gross.","category":"Việc làm & Lương thưởng"},{"id":"text-diff","link":"../text-diff/","icon":"file-diff","title":"So Sánh Văn Bản","desc":"So sánh sự khác biệt giữa hai đoạn văn bản, làm nổi bật các phần thêm, xóa, sửa.","category":"Công cụ Văn bản"},{"id":"text-formatter","link":"../text-formatter/","icon":"wand-2","title":"Định Dạng Văn Bản - Xóa Style","desc":"Loại bỏ định dạng và làm sạch văn bản khi copy từ web.","category":"Công cụ Văn bản"},{"id":"timestamp-converter","link":"../timestamp-converter/","icon":"clock","title":"Chuyển đổi Timestamp","desc":"Chuyển đổi thời gian giữa định dạng Unix Timestamp và ngày tháng thực tế.","category":"Công cụ Lập trình (Dev)"},{"id":"unit-converter","link":"../unit-converter/","icon":"ruler","title":"Quy đổi đơn vị","desc":"Công cụ quy đổi chiều dài, khối lượng, thể tích, diện tích và nhiều đơn vị khác.","category":"Tiện ích đời sống"},{"id":"url-toolkit","link":"../url-toolkit/","icon":"link","title":"URL & Base64 Toolkit","desc":"Mã hóa/Giải mã URL, Base64 và phân tích cấu trúc URL nhanh chóng.","category":"Công cụ Lập trình (Dev)"},{"id":"uuid-generator","link":"../uuid-generator/","icon":"fingerprint","title":"UUID Generator","desc":"Tạo UUID/GUID ngẫu nhiên (V1, V4, V7) nhanh chóng.","category":"Generators (Tạo mã)"},{"id":"web-playground","link":"../web-playground/","icon":"code-2","title":"zTool Playground","desc":"Trình soạn thảo HTML/CSS/JS online, chạy ngay trên trình duyệt, không cần server.","category":"Công cụ Lập trình (Dev)"},{"id":"word-counter","link":"../word-counter/","icon":"bar-chart-3","title":"Đếm từ & Phân tích văn bản","desc":"Đếm từ, phân tích tần suất và chuyển đổi chữ hoa/thường (Case Converter).","category":"Công cụ Văn bản"}]
 </script>
                         
 </body>
