@@ -243,6 +243,11 @@ const IS_DEV = false;
           return;
           }
 
+          // 2. Bypass Service Worker for dynamic API routes
+          if (url.pathname.startsWith('/api/')) {
+          return;
+          }
+
           if (e.request.method !== 'GET' || !e.request.url.startsWith(self.location.origin)) {
           return;
           }
